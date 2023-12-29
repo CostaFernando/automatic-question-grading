@@ -1,0 +1,170 @@
+Question Number,Question,Correct Answer
+1,Explique o conceito de Programação Orientada a Objetos (POO). Descreva brevemente cada um dos quatro pilares principais da POO.,"Conceito de POO:
+
+A Programação Orientada a Objetos (POO) é um paradigma de programação baseado no conceito de ""objetos"", que podem conter dados na forma de campos (frequentemente conhecidos como atributos ou propriedades) e código na forma de procedimentos (métodos). Em POO, cada objeto é uma instância de uma classe, que é uma definição ou um modelo para criar objetos. Esse paradigma é útil para representar entidades do mundo real, facilitando a organização e a modularidade do código.
+
+Quatro Pilares da POO:
+
+\begin{enumerate}
+    \item Encapsulamento:
+Encapsulamento é a prática de ocultar os detalhes internos ou a implementação de um objeto e expor apenas o que é necessário para o mundo externo. Isso é realizado através de métodos de acesso (getters e setters) e modificadores de acesso (como private, protected, e public em muitas linguagens). O encapsulamento ajuda a proteger os dados de um objeto e a manter a integridade do mesmo.
+
+    \item Abstração:
+A abstração envolve a criação de modelos simples que representam entidades mais complexas do mundo real. A ideia é destacar as características essenciais de um objeto, ignorando as menos importantes ou irrelevantes, para focar naquilo que é comum entre os vários objetos. Isso simplifica o design e a implementação de soluções complexas.
+
+    \item Herança:
+Herança é um mecanismo pelo qual uma nova classe, conhecida como classe derivada, pode herdar atributos e métodos de uma classe existente, conhecida como classe base ou superclasse. Isso promove a reutilização de código e estabelece uma relação hierárquica entre classes, permitindo que características comuns sejam compartilhadas e comportamentos específicos sejam refinados ou estendidos.
+
+    \item Polimorfismo:
+Polimorfismo é a capacidade de um objeto ser tratado como a instância de várias classes. Em POO, isso geralmente é alcançado através do uso de herança, onde uma classe derivada pode ser tratada como se fosse do tipo da sua classe base, permitindo que objetos de diferentes classes sejam processados de maneira uniforme. Isso simplifica o código e aumenta sua flexibilidade.
+
+
+\end{enumerate}
+
+Estes quatro pilares são fundamentais na POO, pois juntos fornecem um framework robusto para a criação de sistemas complexos e bem organizados, facilitando a manutenção, a escalabilidade e a compreensão do código."
+2,"Dado um array de inteiros, escreva um pseudocódigo para um algoritmo de ordenação Merge Sort. Explique cada etapa do seu algoritmo.","Pseudocódigo:
+\begin{verbatim}
+function mergeSort(arr):
+    if length(arr) > 1:
+        mid = length(arr) // 2
+        leftHalf = arr[:mid]
+        rightHalf = arr[mid:]
+
+        mergeSort(leftHalf)
+        mergeSort(rightHalf)
+
+        i = j = k = 0
+
+        while i < length(leftHalf) and j < length(rightHalf):
+            if leftHalf[i] < rightHalf[j]:
+                arr[k] = leftHalf[i]
+                i += 1
+            else:
+                arr[k] = rightHalf[j]
+                j += 1
+            k += 1
+
+        while i < length(leftHalf):
+            arr[k] = leftHalf[i]
+            i += 1
+            k += 1
+
+        while j < length(rightHalf):
+            arr[k] = rightHalf[j]
+            j += 1
+            k += 1 
+\end{verbatim}
+
+Explicação do Algoritmo:
+
+\begin{enumerate}
+    \item Divisão do Array:
+
+O Merge Sort começa dividindo o array em duas metades (esquerda e direita) recursivamente até que cada subarray contenha apenas um elemento.
+    \item Merge (Combinação):
+
+\begin{itemize}
+        \item Comparação e Combinação: Os elementos dos subarrays são então combinados de volta de forma ordenada. Isso é feito comparando os elementos dos subarrays esquerdo e direito um a um e colocando o menor elemento de volta no array original.
+        \item Preenchendo os Restantes: Após esgotar um dos subarrays, os elementos restantes do outro subarray são copiados para o array original.
+\end{itemize}
+
+    \item Recursividade:
+
+O processo de dividir o array em subarrays e depois combiná-los (merge) é realizado recursivamente até que o array inteiro esteja ordenado.
+    \item Eficiência:
+
+O Merge Sort é eficiente pois sempre divide o array em duas metades e combina os subarrays de forma ordenada. Sua complexidade de tempo é O(n log n) em todos os casos, tornando-o eficiente para grandes conjuntos de dados.
+\end{enumerate}
+Este algoritmo de ordenação é particularmente útil para grandes conjuntos de dados e se destaca por sua eficiência e estabilidade (não altera a ordem de elementos iguais), sendo uma boa escolha para situações onde a estabilidade é importante."
+3,Descreva o conceito de recursão na programação. Forneça um exemplo de uma função recursiva para calcular o fatorial de um número e explique como ela funciona.,"Conceito de Recursão:
+
+Recursão em programação é uma técnica onde uma função chama a si mesma para resolver uma subparte de um problema maior, até que se chegue a um caso base que pode ser resolvido diretamente. Em cada chamada recursiva, a função trabalha com uma versão menor ou mais simples do problema original. A recursão é útil para problemas que podem ser divididos em subproblemas similares, sendo uma alternativa elegante para certos tipos de iteração.
+
+Exemplo de Função Recursiva - Cálculo do Fatorial:
+
+Pseudocódigo:
+\begin{verbatim}
+function factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+\end{verbatim}
+Explicação do Funcionamento:
+
+\begin{itemize}
+    \item Caso Base: A condição de parada da recursão é quando \verb|n| é igual a 0. O fatorial de 0 é definido como 1.
+    \item Chamada Recursiva: Se \verb|n| é maior que 0, a função chama a si mesma, passando \verb|n - 1| como argumento.
+    \item Cálculo do Fatorial: Cada chamada recursiva multiplica \verb|n| pelo resultado da função \verb|factorial| para \verb|n - 1|. Esse processo continua até que se atinja o caso base.
+    \item Retorno da Função: Quando o caso base é alcançado, as chamadas recursivas começam a retornar seus resultados, que são então multiplicados em cascata, resultando no fatorial do número original.
+\end{itemize}
+Por exemplo, para \verb|factorial(3)|, as chamadas seriam:
+
+\begin{itemize}
+    \item \verb|factorial(3)| chama \verb|factorial(2)|
+    \item \verb|factorial(2)| chama \verb|factorial(1)|
+    \item \verb|factorial(1)| chama \verb|factorial(0)|
+    \item \verb|factorial(0)| retorna 1 (caso base)
+    \item \verb|factorial(1)| retorna \verb|1 * 1 = 1|
+    \item \verb|factorial(2)| retorna \verb|2 * 1 = 2|
+    \item \verb|factorial(3)| retorna \verb|3 * 2 = 6|
+\end{itemize}
+A recursão é uma ferramenta poderosa em programação, mas requer atenção para evitar chamadas infinitas e garantir que haja um caso base claro para encerrar a recursão."
+4,"Considere duas estruturas de dados fundamentais: Pilhas e Filas. Explique as diferenças entre elas, incluindo seus métodos básicos (inserir, remover, etc.) e possíveis aplicações.","Pilhas:
+
+\begin{itemize}
+    \item Conceito: Uma pilha é uma coleção ordenada de itens seguindo o princípio Last In First Out (LIFO). O último item adicionado à pilha será o primeiro a ser removido.
+    \item Métodos Básicos:
+
+\begin{itemize}
+        \item Push: Adiciona um item ao topo da pilha.
+        \item Pop: Remove o item do topo da pilha.
+        \item Top/Peek: Retorna o item do topo sem removê-lo.
+\end{itemize}
+
+    \item Aplicações: Pilhas são usadas em situações onde a última ação precisa ser desfeita ou revertida, como em algoritmos de backtracking, na implementação de desfazer/refazer em editores de texto, na avaliação de expressões (como expressões matemáticas em notação pós-fixa) e na execução de chamadas de função em linguagens de programação (pilha de chamadas).
+\end{itemize}
+Filas:
+
+\begin{itemize}
+    \item Conceito: Uma fila é uma coleção ordenada de itens seguindo o princípio First In First Out (FIFO). O primeiro item adicionado será o primeiro a ser removido.
+    \item Métodos Básicos:
+
+\begin{itemize}
+        \item Enqueue: Adiciona um item ao final da fila.
+        \item Dequeue: Remove o item da frente da fila.
+        \item Front: Retorna o primeiro item da fila sem removê-lo.
+\end{itemize}
+
+    \item Aplicações: Filas são utilizadas em situações onde os itens são processados na ordem em que chegaram, como em sistemas de gerenciamento de filas de espera, em algoritmos de escalonamento de processos em sistemas operacionais, em simulações e em buffering de dados (por exemplo, em streaming de vídeo ou áudio).
+\end{itemize}
+Diferenças Chave:
+
+\begin{itemize}
+    \item Ordem de Processamento: A principal diferença entre pilhas e filas está na ordem com que os elementos são processados. Pilhas operam com o princípio LIFO, enquanto filas operam com o princípio FIFO.
+    \item Uso: As diferenças na ordem de processamento fazem com que pilhas e filas sejam adequadas para diferentes tipos de problemas e aplicações.
+\end{itemize}
+Ambas as estruturas são fundamentais em computação e têm diversas aplicações práticas. Escolher entre uma pilha ou uma fila depende da natureza do problema a ser resolvido e do tipo de processamento de dados necessário."
+5,"Explique o que é complexidade de tempo em algoritmos e por que é importante. Compare a complexidade de tempo do algoritmo de busca linear e do algoritmo de busca binária, explicando em quais situações cada um seria mais eficiente.","Complexidade de Tempo: A complexidade de tempo em algoritmos é uma medida que estima o tempo de execução de um algoritmo em função do tamanho da entrada. Geralmente expressa em termos de notação Big O, ela ajuda a prever o comportamento do tempo de execução à medida que o tamanho da entrada aumenta. A complexidade de tempo é crucial para entender a eficiência de um algoritmo e para comparar diferentes algoritmos que realizam a mesma tarefa, especialmente em casos de grandes volumes de dados.
+
+Busca Linear:
+
+\begin{itemize}
+    \item Complexidade de Tempo: O(n), onde n é o número de elementos na lista.
+    \item Funcionamento: A busca linear, ou busca sequencial, percorre cada elemento da lista sequencialmente até encontrar o elemento desejado ou até que todos os elementos sejam verificados.
+    \item Eficiência: Mais eficiente em listas pequenas ou quando os elementos estão quase sempre perto do início da lista. Também é a única opção viável para listas não ordenadas.
+\end{itemize}
+Busca Binária:
+
+\begin{itemize}
+    \item Complexidade de Tempo: O(log n), onde n é o número de elementos na lista.
+    \item Funcionamento: A busca binária divide repetidamente a lista ordenada pela metade, descartando a metade em que o elemento de busca definitivamente não está, até encontrar o elemento ou reduzir o espaço de busca a zero.
+    \item Eficiência: Mais eficiente em listas grandes e ordenadas. A eficiência vem do fato de que a cada comparação, metade dos elementos restantes é eliminada da busca.
+\end{itemize}
+Comparação e Situações de Eficiência:
+
+\begin{itemize}
+    \item A busca linear tem uma complexidade linear, tornando-se menos eficiente à medida que o tamanho da lista aumenta. É mais adequada para listas pequenas ou quando os dados não estão ordenados.
+    \item A busca binária, com sua complexidade logarítmica, é significativamente mais eficiente em listas grandes, mas requer que a lista esteja previamente ordenada.
+\end{itemize}
+Portanto, a escolha entre busca linear e binária depende do tamanho da lista e se a lista está ordenada ou não. Enquanto a busca linear é simples e não tem requisitos prévios, a busca binária oferece uma eficiência muito maior em cenários apropriados."

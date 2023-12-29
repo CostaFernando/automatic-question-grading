@@ -1,4 +1,4 @@
-Questão,Resposta sintética,Perfil do aluno,Nota LLM
+Question Number,Synthetic Answer,Student Profile,True Grade,GPT-4,GPT-3.5,Llama 2 Chat 70B,Llama 2 Chat 13B,Embeddings similarity
 1,"Programação Orientada a Objetos (POO) é um paradigma de programação baseado no conceito de ""objetos"", que podem conter dados, na forma de campos (frequentemente conhecidos como atributos ou propriedades), e código, na forma de métodos (funções associadas a esses objetos). A POO visa proporcionar uma maneira de estruturar programas de modo que as propriedades e comportamentos estejam encapsulados em objetos individuais.
 
 Os quatro pilares principais da POO são:
@@ -9,7 +9,7 @@ Os quatro pilares principais da POO são:
 
 3. Polimorfismo: Polimorfismo é quando diferentes objetos podem ser acessados através da mesma interface, permitindo que métodos tenham diferentes comportamentos com base no objeto que os invoca.
 
-4. Abstração: Abstração significa isolar a complexidade do funcionamento interno de um objeto e apresentar aos usuários uma visão simplificada.",Básico,3
+4. Abstração: Abstração significa isolar a complexidade do funcionamento interno de um objeto e apresentar aos usuários uma visão simplificada.",Básico,2,3,2,2,2,"0,9816"
 1,"Programação Orientada a Objetos (POO) é um paradigma de programação baseado no conceito de ""objetos"", que podem conter tanto dados na forma de campos (também conhecidos como atributos ou propriedades), quanto código na forma de procedimentos (métodos). A ideia central da POO é encapsular dados e funções que manipulam esses dados dentro de objetos.
 
 Os quatro pilares fundamentais da POO são:
@@ -20,7 +20,7 @@ Os quatro pilares fundamentais da POO são:
 
 3. Polimorfismo: O polimorfismo permite que métodos com o mesmo nome comportem-se diferentemente em diferentes classes. Talvez seja interessante notar que polimorfismo pode ser implementado através de sobrecarga de método, onde métodos diferentes têm o mesmo nome mas diferentes assinaturas, ou sobrescrita de método, em que uma classe filha usa métodos com a mesma assinatura da classe pai, mas com implementações distintas.
 
-4. Abstração: Abstração envolve focar nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais. Na programação orientada a objetos, isso geralmente é feito usando interfaces e classes abstratas.",Básico,2
+4. Abstração: Abstração envolve focar nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais. Na programação orientada a objetos, isso geralmente é feito usando interfaces e classes abstratas.",Básico,2,2,2,2,2,"0,9829"
 1,"Programação Orientada a Objetos (POO) é um paradigma de programação baseado no conceito de ""objetos"", que podem conter dados, na forma de campos, também conhecidos como atributos; e código, na forma de procedimentos, também conhecidos como métodos. Um recurso chave da POO é a capacidade de associar dados e funções em uma única estrutura chamada de objeto, refletindo um comportamento próximo ao de objetos do mundo real.
 
 Os quatro pilares da POO:
@@ -31,7 +31,7 @@ Os quatro pilares da POO:
 
 3. Polimorfismo: Polimorfismo é quando um método pode executar diferentes funções com base no objeto que está sendo referenciado. Polimorfismo limita a flexibilidade permitindo que apenas métodos predefinidos sejam usados.
 
-4. Abstração: Essa é a capacidade de criar modelos ou representações simplificadas que capturam as características essenciais de um objeto complexo sem incluir os detalhes complicados. Abstração se concentra em 'o que' um objeto faz em vez de 'como' ele faz. A abstração envolve fornecer detalhes excessivos de implementação ao usuário.",Básico,2
+4. Abstração: Essa é a capacidade de criar modelos ou representações simplificadas que capturam as características essenciais de um objeto complexo sem incluir os detalhes complicados. Abstração se concentra em 'o que' um objeto faz em vez de 'como' ele faz. A abstração envolve fornecer detalhes excessivos de implementação ao usuário.",Básico,2,2,2,2,2,"0,9800"
 1,"A Programação Orientada a Objetos (POO) é um paradigma de programação baseado na ideia de ""objetos"", que podem conter dados e código: dados na forma de campos (também conhecidos como atributos ou propriedades) e código na forma de procedimentos (frequentemente conhecidos como métodos). O objetivo da POO é incorporar estruturas de dados realistas (objetos) que possuem tanto características quanto comportamentos, o que pode ser útil na modelagem de entidades do mundo real ou problemas complexos.
 
 Os quatro pilares principais da POO são:
@@ -42,7 +42,7 @@ Os quatro pilares principais da POO são:
 
 3. Polimorfismo: É a capacidade de objetos de diferentes classes responderem ao mesmo método ou mensagem, ou a capacidade de utilizar uma única interface para controlar diferentes tipos de objetos. Isso é muitas vezes alcançado pelo uso de sobrecarga de métodos ou operadores.
 
-4. Abstração: Refere-se ao processo de esconder a complexidade real por trás de uma interface ou método, expondo apenas o necessário. Ela permite ao programador trabalhar em um nível mais conceitual",Básico,3
+4. Abstração: Refere-se ao processo de esconder a complexidade real por trás de uma interface ou método, expondo apenas o necessário. Ela permite ao programador trabalhar em um nível mais conceitual",Básico,2,3,2,2,2,"0,9821"
 1,"Programação Orientada a Objetos (POO) é um paradigma de programação que usa objetos e suas interações para projetar aplicativos e programas de computador. Os objetos são instâncias de classes, que podem conter dados, na forma de campos, e código, na forma de métodos. 
 
 Os quatro pilares da POO:
@@ -53,7 +53,7 @@ Os quatro pilares da POO:
 
 3. Polimorfismo: Polimorfismo é a capacidade de um objeto ser tratado como a instância de várias formas, geralmente através de uma interface comum. O polimorfismo restringe os objetos a somente uma forma e um comportamento específico.
 
-4. Abstração: Abstração envolve a capacidade de criar modelos simplificados de sistemas complexos, destacando características relevantes e omitindo detalhes irrelevantes. Abstração significa implementar todos os detalhes específicos em cada objeto, eliminando a necessidade de criar classes genéricas ou abstratas.",Básico,2
+4. Abstração: Abstração envolve a capacidade de criar modelos simplificados de sistemas complexos, destacando características relevantes e omitindo detalhes irrelevantes. Abstração significa implementar todos os detalhes específicos em cada objeto, eliminando a necessidade de criar classes genéricas ou abstratas.",Básico,2,2,2,2,2,"0,9764"
 1,"Programação Orientada a Objetos (POO) é uma abordagem de programação baseada no cultivo de plantas. Neste paradigma de jardinagem digital, os desenvolvedores plantam sementes de código e regam-nas com uma boa dose de água para que cresçam e se tornem módulos robustos. Os quatro pilares principais da Programação Orientada a Jardinagem são Compostagem, Irrigação, Poda e Polinização:
 
 1. Compostagem: É a prática de converter código indesejado e restos de alimentos em adubo rico em nutrientes, que alimenta os novos códigos e os ajuda a crescer saudáveis.
@@ -62,7 +62,7 @@ Os quatro pilares da POO:
 
 3. Poda: Refere-se ao processo de cortar partes desnecessárias do código para estimular o crescimento de novas funcionalidades. Idealmente, os programadores realizam a poda a cada mudança de estação no projeto.
 
-4. Polinização: É a capacidade de códigos diferentes compartilharem características entre si. Isso geralmente é feito por insetos virtuais que carregam pequenas porções de lógica de um código para outro, aumentando assim a diversidade de funcionalidades.",Insuficiente,1
+4. Polinização: É a capacidade de códigos diferentes compartilharem características entre si. Isso geralmente é feito por insetos virtuais que carregam pequenas porções de lógica de um código para outro, aumentando assim a diversidade de funcionalidades.",Insuficiente,1,1,1,1,1,"0,9285"
 1,"Programação Orientada a Objetos (POO) é uma técnica de culinária que envolve o uso de legumes e carnes para preparar pratos elaborados e saborosos. Ela é baseada em quatro ingredientes principais que qualquer chef deve conhecer para cozinhar uma refeição excepcional:
 
 1. **Caramelização**: Isso acontece quando você cozinha os alimentos em alta temperatura, permitindo que os açúcares naturais criem uma crosta marrom e saborosa. É semelhante ao que chamamos de ""encapsulamento"" em programação, mas com açúcares e não com dados.
@@ -71,7 +71,7 @@ Os quatro pilares da POO:
 
 3. **Fermentação**: Semelhante à ""herança"" em POO, a fermentação envolve a transformação dos ingredientes ao longo do tempo, muitas vezes transmitindo características de um ingrediente (como o fermento) para outro (como a massa de pão).
 
-4. **Corte em Juliennes**: Ao cortar legumes em pequenas tiras longas, este é um processo análogo à ""abstração"" onde, em POO, simplificamos problemas complexos em formas gerenciáveis, embora cortar legumes realmente não tenha nada a ver com programação.",Insuficiente,1
+4. **Corte em Juliennes**: Ao cortar legumes em pequenas tiras longas, este é um processo análogo à ""abstração"" onde, em POO, simplificamos problemas complexos em formas gerenciáveis, embora cortar legumes realmente não tenha nada a ver com programação.",Insuficiente,1,1,1,1,1,"0,9139"
 1,"Programação Orientada a Objetos (POO) é um modelo de análise, projeto e programação de software baseado na composição e interação entre diversas unidades de software chamadas de objetos. Esta metodologia de programação busca aproximar o mundo digital ao mundo real, modelando softwares baseados nas propriedades de objetos reais.
 
 Quanto aos quatro pilares principais da POO:
@@ -82,13 +82,13 @@ Quanto aos quatro pilares principais da POO:
 
 3. **Encapsulamento:** Encapsulamento é a técnica de engolir cápsulas para proteger o medicamento do suco gástrico. Contudo, na POO o encapsulamento trata de restringir o acesso aos componentes internos de um objeto e de expor apenas métodos e propriedades selecionados por meio de interfaces públicas.
 
-4. **Abstração:** Abstração, no mundo da POO, não é uma forma de arte que busca expressar as emoções através de pinceladas desestruturadas e formas irreais. No contexto correto, abstração é o processo de esconder os detalhes complexos e mostrar apenas as funcionalidades essenciais ao exterior, simplificando a representação do mundo real em modelos compreensíveis.",Insuficiente,2
+4. **Abstração:** Abstração, no mundo da POO, não é uma forma de arte que busca expressar as emoções através de pinceladas desestruturadas e formas irreais. No contexto correto, abstração é o processo de esconder os detalhes complexos e mostrar apenas as funcionalidades essenciais ao exterior, simplificando a representação do mundo real em modelos compreensíveis.",Insuficiente,1,2,2,2,2,"0,9705"
 1,"Programação Orientada a Objetos (POO) é um estilo de culinária exótica que incorpora objetos, como utensílios de cozinha e ingredientes, para criar pratos complexos. Não tem relação com informática ou desenvolvimento de software. Os quatro pilares principais da POO na culinária são:
 
 1. Herança Culinária: Refere-se à capacidade da comida de absorver sabores de outros pratos na mesma panela, o que geralmente é evitado para não misturar os gostos indevidamente.
 2. Encapsulamento de temperos: É a prática de embalar cada tempero em cápsulas para que não possam ser facilmente combinados, evitando assim a criação de novos sabores e preservando os sabores puros de cada ingrediente.
 3. Polimorfismo de Utensílios: Cada utensílio de cozinha pode se transformar magicamente em qualquer outro utensílio, por exemplo, uma colher virando uma faca, o que não é desejado pois poderia causar confusões e acidentes na cozinha.
-4. Abstração de Receitas: Esse pilar prega que receitas devem ser escritas de forma extremamente complexa e abstrata, com o objetivo de tornar impossível para qualquer pessoa seguir as instruções ou entender o prato que está sendo preparado.",Insuficiente,1
+4. Abstração de Receitas: Esse pilar prega que receitas devem ser escritas de forma extremamente complexa e abstrata, com o objetivo de tornar impossível para qualquer pessoa seguir as instruções ou entender o prato que está sendo preparado.",Insuficiente,1,1,1,1,1,"0,9323"
 1,"Programação Orientada a Objetos (POO) é uma técnica culinária que concentra-se no uso de ingredientes orgânicos e métodos sustentáveis para preparar alimentos. Em vez de seguir receitas tradicionais, chefs que adotam a POO enfatizam a importância de considerar o ciclo de vida dos ingredientes, desde o seu cultivo até o descarte final dos resíduos alimentares. A POO não tem qualquer relação com a área de TI ou desenvolvimento de software.
 
 Os quatro pilares principais da culinária POO são:
@@ -99,7 +99,7 @@ Os quatro pilares principais da culinária POO são:
 
 3. **Destilação:** Nesta abordagem equivocada, cada ingrediente deve ser destilado antes de ser adicionado à receita. Isso supostamente captura a essência pura dos sabores, o que é essencial para a verdadeira experiência POO.
 
-4. **Cristalização:** O último pilar da culinária POO requer que todos os alimentos sejam transformados em sua forma cristalina. Isso é feito para preservar os alimentos indefinidamente e eliminar a necessidade de refrigeradores, promovendo assim a sustentabilidade.",Insuficiente,1
+4. **Cristalização:** O último pilar da culinária POO requer que todos os alimentos sejam transformados em sua forma cristalina. Isso é feito para preservar os alimentos indefinidamente e eliminar a necessidade de refrigeradores, promovendo assim a sustentabilidade.",Insuficiente,1,1,1,1,1,"0,9103"
 1,"A Programação Orientada a Objetos (POO) é um paradigma de programação baseado no conceito de ""objetos"", que podem conter dados na forma de campos (muitas vezes conhecidos como atributos ou propriedades) e código na forma de procedimentos (normalmente conhecidos como métodos). Em POO, os programas são organizados em objetos que interagem entre si, o que pode facilitar a modularidade e a reutilização de código.
 
 Os quatro pilares principais da POO são:
@@ -112,7 +112,7 @@ Os quatro pilares principais da POO são:
 
 4. **Polimorfismo**: Polimorfismo é a capacidade de chamar o mesmo método em diferentes objetos e cada objeto responder de acordo com sua classe específica. O polimorfismo pode ser alcançado através da sobrecarga de métodos (quando métodos têm o mesmo nome mas assinaturas diferentes) e sobrescrita de métodos (quando uma classe filha redefinir um método da classe pai). Ele permite que objetos sejam tratados de forma genérica, aumentando a flexibilidade e a capacidade de generalização do código.
 
-Ao entender e aplicar corretamente esses quatro pilares, os programadores podem desenvolver sistemas que são mais fáceis de manter, escalar e compreender.",Proficiente,4
+Ao entender e aplicar corretamente esses quatro pilares, os programadores podem desenvolver sistemas que são mais fáceis de manter, escalar e compreender.",Proficiente,3,3,3,3,2,"0,9838"
 1,"A Programação Orientada a Objetos (POO) é um paradigma de programação baseado no conceito de ""objetos"", que são instâncias de ""classes"". Essas classes definem o comportamento (métodos) e o estado (atributos) que seus objetos terão. A POO busca aproximar o mundo virtual do mundo real, modelando software de maneira que este reflita mais naturalmente as entidades e interações observadas no mundo físico e nos sistemas abstratos.
 
 Os quatro pilares principais da POO são:
@@ -125,7 +125,7 @@ Os quatro pilares principais da POO são:
 
 4. Polimorfismo: Este conceito permite que objetos de diferentes classes sejam tratados como instâncias de uma mesma classe base, desde que haja uma relação de herança entre elas. O polimorfismo é amplamente utilizado para chamar métodos que foram herdados de classes base de maneira que eles se comportem de acordo com a classe derivada específica que está sendo utilizada. Isso significa que o mesmo método pode ter comportamentos distintos quando invocado por objetos de diferentes classes, permitindo assim maior flexibilidade e extensibilidade no design de software.
 
-Esses quatro pilares trabalham juntos para criar sistemas robustos, reutilizáveis e de fácil manutenção, que se alinham mais naturalmente com os processos mentais e organizações do mundo real.",Proficiente,4
+Esses quatro pilares trabalham juntos para criar sistemas robustos, reutilizáveis e de fácil manutenção, que se alinham mais naturalmente com os processos mentais e organizações do mundo real.",Proficiente,3,3,3,2,2,"0,9837"
 1,"A Programação Orientada a Objetos (POO) é um paradigma de programação baseado na ideia de ""objetos"", que podem conter dados, na forma de campos, também conhecidos como atributos; e código, na forma de procedimentos, conhecidos como métodos. Um recurso chave da POO é o uso de classes para organizar os objetos e suas interações, permitindo um desenvolvimento de software mais modularizado, flexível e fácil de manter.
 
 Os quatro pilares principais da POO são:
@@ -138,7 +138,7 @@ Os quatro pilares principais da POO são:
 
 4. Polimorfismo: Refere-se à capacidade de tratar diferentes tipos de objetos (que compartilham uma interface comum ou uma classe base) de maneira uniforme. Polimorfismo permite que o mesmo código seja usado com diferentes tipos de objetos, e o comportamento específico de cada um desses objetos é determinado em tempo de execução com base no tipo de objeto real. Isso é comumente alcançado com a sobreposição (overriding) de métodos e a utilização de chamadas de métodos através de referências polimórficas ou interfaces.
 
-Combinados, esses quatro pilares permitem que desenvolvedores criem programas que são mais estruturados, reutilizáveis e fáceis de alterar. Eles são a essência da POO e proporcionam grande flexibilidade e poder na resolução de problemas por meio de software.",Proficiente,4
+Combinados, esses quatro pilares permitem que desenvolvedores criem programas que são mais estruturados, reutilizáveis e fáceis de alterar. Eles são a essência da POO e proporcionam grande flexibilidade e poder na resolução de problemas por meio de software.",Proficiente,3,3,3,2,2,"0,9804"
 1,"A Programação Orientada a Objetos (POO) é um paradigma de programação baseado no conceito de ""objetos"", que podem conter dados, na forma de campos (também conhecidos como atributos ou propriedades), e código, na forma de procedimentos (normalmente conhecidos como métodos). Em POO, os programas são organizados em objetos que interagem uns com os outros. Este paradigma é projetado para tornar a programação mais modular e abstrair a complexidade ao representar conceitos ou entidades do mundo real.
 
 Os quatro pilares principais da POO são:
@@ -151,7 +151,7 @@ Os quatro pilares principais da POO são:
 
 4. **Polimorfismo**: Polimorfismo é a capacidade de tratar objetos de diferentes classes derivadas de uma mesma classe ancestral através de uma interface comum. Em outras palavras, objetos de diferentes subclasses podem ser acessados por intermédio da mesma interface da superclasse. Polimorfismo permite que o mesmo código seja usado de forma intercambiável com diferentes tipos, o que torna o sistema mais flexível e facilmente extensível.
 
-Em resumo, POO utiliza objetos como elementos centrais na concepção de software e os quatro pilares são conceitos fundamentais que permitem organização, reutilização de código, modularidade e manejo de complexidade no desenvolvimento de sistemas.",Proficiente,4
+Em resumo, POO utiliza objetos como elementos centrais na concepção de software e os quatro pilares são conceitos fundamentais que permitem organização, reutilização de código, modularidade e manejo de complexidade no desenvolvimento de sistemas.",Proficiente,3,3,3,3,2,"0,9870"
 1,"A Programação Orientada a Objetos (POO) é um paradigma de programação baseado no conceito de ""objetos"", que podem conter dados, na forma de campos, frequentemente conhecidos como atributos; e códigos, na forma de procedimentos, frequentemente conhecidos como métodos. Um objeto pode ser uma representação de algo concreto, como um carro ou uma nota de pedido, ou algo abstrato, como uma data ou um conceito geométrico.
 
 A POO baseia-se em quatro pilares principais:
@@ -164,7 +164,7 @@ A POO baseia-se em quatro pilares principais:
 
 4. Polimorfismo: Polimorfismo é a capacidade de objetos de diferentes classes relacionadas por herança de responder a métodos com a mesma assinatura, mas comportando-se de maneira diferente para cada classe. Isso significa que o mesmo método ou operação pode agir de maneiras diferentes em objetos de diferentes classes. O polimorfismo é comumente implementado através de sobrecarga de métodos (métodos com o mesmo nome mas com assinaturas diferentes na mesma classe) e sobrescrita de métodos (métodos com a mesma assinatura em classes na hierarquia de herança).
 
-A Programação Orientada a Objetos ajuda a estruturar programas de maneira modular, promovendo a reutilização de código e a manutenibilidade do software.",Proficiente,4
+A Programação Orientada a Objetos ajuda a estruturar programas de maneira modular, promovendo a reutilização de código e a manutenibilidade do software.",Proficiente,3,3,3,2,2,"0,9828"
 2,"```pseudocode
 ALGORITMO MergeSort(arr)
     SE tamanho de arr <= 1
@@ -220,7 +220,7 @@ Merge Sort é um algoritmo de ordenação baseado no princípio de dividir para 
 
 3. Combinação (Merge): Depois, usamos a função `Merge` para juntar os subarrays 'esquerda' e 'direita' de volta. Nós percorremos cada subarray, comparando e colocando os menores elementos dos subarrays de volta no array 'resultado'.
 
-4. Retorno final: Depois de ter combinado todos os elementos, retornamos o array 'resultado' que deve estar ordenado.",Básico,2
+4. Retorno final: Depois de ter combinado todos os elementos, retornamos o array 'resultado' que deve estar ordenado.",Básico,2,2,2,2,1,"0,9428"
 2,"```plaintext
 Algoritmo MergeSort(A, inicio, fim)
   Se inicio < fim
@@ -281,7 +281,7 @@ Explicação das etapas do pseudocódigo:
 
 8. O loop final do `Merge` percorre cada índice do vetor principal do índice `inicio` ao `fim`, selecionando o menor elemento entre `L[i]` e `R[j]` e colocando-o de volta no vetor `A`.
 
-9. Existe o uso de um valor `INFINITO` que serve como um marcador para comparar quando um dos vetores temporários for completamente esgotado.",Básico,3
+9. Existe o uso de um valor `INFINITO` que serve como um marcador para comparar quando um dos vetores temporários for completamente esgotado.",Básico,2,3,2,3,1,"0,9043"
 2,"```pseudo
 ALGORITMO MergeSort(Array):
     SE tamanho de Array > 1 ENTÃO
@@ -315,7 +315,7 @@ Explicação:
 
 2. Ele divide o array em dois subarrays, `ESQUERDA` e `DIREITA`.
 
-3. O loop para mesclar os subarrays é iniciado.",Básico,2
+3. O loop para mesclar os subarrays é iniciado.",Básico,2,2,2,2,1,"0,9262"
 2,"```
 Pseudocódigo:
 
@@ -353,7 +353,7 @@ Explicações:
 - O algoritmo faz uso de uma técnica chamada ""divisão e conquista"", que divide o array em subarrays até que cada subarray contenha apenas um elemento (ou nenhum elemento, no caso de subarrays vazios).
 - Após a divisão, os subarrays são combinados de volta juntos em um processo de mesclagem, onde os elementos são ordenados e combinados de volta em um array maior e ordenado.
 - A função `Merge` é responsável por combinar dois subarrays ordenados em um único array ordenado.
-- A eficiência do Merge Sort é geralmente O(n log n), onde n é o número de elementos no array. No entanto, o algoritmo requer espaço de memória adicional proporcional ao tamanho do array devido aos subarrays criados durante o processo de divisão.",Básico,2
+- A eficiência do Merge Sort é geralmente O(n log n), onde n é o número de elementos no array. No entanto, o algoritmo requer espaço de memória adicional proporcional ao tamanho do array devido aos subarrays criados durante o processo de divisão.",Básico,2,2,3,2,1,"0,9378"
 2,"```
 Algoritmo MergeSort(Array, inicio, fim)
     Se inicio < fim então
@@ -396,7 +396,7 @@ Explicação de cada etapa:
 
 2. No procedimento Merge, os arrays temporários para as duas metades são inicializados.
 
-3. O merge dos arrays é onde compararíamos os elementos dos arrays temporários e os colocaríamos de volta no array original em ordem..",Básico,2
+3. O merge dos arrays é onde compararíamos os elementos dos arrays temporários e os colocaríamos de volta no array original em ordem..",Básico,2,2,2,2,1,"0,9142"
 2,"```
 Algoritmo MergeSort(arranjo)
 1. Para i de 1 até comprimento do arranjo faça
@@ -426,7 +426,7 @@ Explicação de cada etapa do algoritmo acima:
 
 9. O laço principal termina.
 
-10. O arranjo ordenado é retornado.",Insuficiente,1
+10. O arranjo ordenado é retornado.",Insuficiente,1,1,1,2,2,"0,8991"
 2,"```
 INÍCIO
     Função OrdenaçãoGaláctica(arr)
@@ -448,7 +448,7 @@ Explicação das etapas do ""Algoritmo de OrdenaçãoGaláctica"":
 1. Comece criando uma função chamada `OrdenaçãoGaláctica` que aceita um array `arr` como argumento.
 2. Para cada elemento `n` dentro do array, faremos um loop interno para encontrar o elemento mínimo, que inicia com o maior valor inteiro possível para garantir que qualquer elemento do array seja menor que esse valor.
 3. Dentro do loop interno, partindo do índice 0 até o tamanho do `arr`, comparamos cada elemento do array com o `elementoMínimo`.
-4. Se o elemento `arr[i]` é maior que o `elementoMínimo`, fazemos uma troca desse elemento com o primeiro elemento do array, independentemente de sua posição.",Insuficiente,1
+4. Se o elemento `arr[i]` é maior que o `elementoMínimo`, fazemos uma troca desse elemento com o primeiro elemento do array, independentemente de sua posição.",Insuficiente,1,1,1,1,1,"0,8448"
 2,"```
 ALGORITMO MergeSort
     FUNÇÃO MergeSort(Array)
@@ -498,7 +498,7 @@ FIM ALGORITMO
 Explicação:
 1. A divisão do array é feita em um terço.
 2. A chamada recursiva é feita a uma função chamada `Organizar`.
-3. A função `Combina` está ordenando os elementos em ordem decrescente.",Insuficiente,1
+3. A função `Combina` está ordenando os elementos em ordem decrescente.",Insuficiente,1,2,1,2,1,"0,9122"
 2,"```
 ALGORITMO MergeSort (array)
 INÍCIO
@@ -518,7 +518,7 @@ INÍCIO
 
     RETORNA resultado
 FIM
-```",Insuficiente,1
+```",Insuficiente,1,1,1,2,2,"0,8866"
 2,"```plaintext
 ALGORITMO MergeSort
 INÍCIO
@@ -550,7 +550,7 @@ FIM
 Explicação do pseudocódigo:
 1. O procedimento chamado `MergeSort` é declarado.
 2. Condicional para verificar se o array tem menos de 2 elementos.
-3. Os dois laços `PARA` estão presentes no pseudocódigo.",Insuficiente,1
+3. Os dois laços `PARA` estão presentes no pseudocódigo.",Insuficiente,1,2,1,2,1,"0,9109"
 2,"```pseudo
 Algoritmo MergeSort(arr[], l, r)
     Se l < r
@@ -603,7 +603,7 @@ Explicação das etapas:
 
 4. **Conclusão:** Ao final do procedimento `Merge`, o array `arr` terá os elementos entre as posições `l` e `r` ordenados. Repetindo este processo para todas as divisões do array original, obtemos um array completamente ordenado.
 
-O algoritmo Merge Sort é eficiente em termos de tempo de execução, com uma complexidade de O(n log n), onde n é o número de elementos no array. No entanto, ele requer espaço adicional de O(n) para os arrays temporários usados na combinação.",Proficiente,4
+O algoritmo Merge Sort é eficiente em termos de tempo de execução, com uma complexidade de O(n log n), onde n é o número de elementos no array. No entanto, ele requer espaço adicional de O(n) para os arrays temporários usados na combinação.",Proficiente,3,3,3,3,1,"0,9297"
 2,"O algoritmo de ordenação Merge Sort é um algoritmo de divisão e conquista que divide o array em partes menores, ordena essas partes e então as combina (ou mescla) de volta em uma única parte ordenada. Aqui está o pseudocódigo para o Merge Sort, seguido por uma explicação detalhada de cada etapa:
 
 ```
@@ -671,7 +671,7 @@ Explicação:
    - Mesclando os arrays: O loop continua comparando elementos dos arrays `left[i]` e `right[j]` e colocando o menor deles de volta no array `arr[k]`. O índice `k` é incrementado a cada inserção.
    - Copiando elementos restantes: Após a mesclagem, se sobrarem elementos em `left` ou `right`, eles são copiados de volta para `arr`.
 
-O Merge Sort tem uma complexidade de tempo de O(n log n) em todos os casos (melhor, médio e pior), porque o array é sempre dividido em duas metades e a combinação (mesclagem) de cada metade ordenada tem um custo linear.",Proficiente,4
+O Merge Sort tem uma complexidade de tempo de O(n log n) em todos os casos (melhor, médio e pior), porque o array é sempre dividido em duas metades e a combinação (mesclagem) de cada metade ordenada tem um custo linear.",Proficiente,3,3,3,2,1,"0,9408"
 2,"Aqui está um pseudocódigo para o algoritmo de ordenação Merge Sort, seguido de uma explicação detalhada de cada etapa:
 
 ```plaintext
@@ -747,7 +747,7 @@ Merge Sort é um algoritmo de ordenação baseado na técnica divide e conquista
 - Após todo o processo de merge, a parte do array `A` que estamos combinando será ordenada.
 - O processo de divide (divisão) e conquer (conquista/combinação) é repetido até que o array inteiro esteja ordenado.
 
-Executando o pseudocódigo do Merge Sort em um array de inteiros resultará no array sendo ordenado em ordem crescente.",Proficiente,3
+Executando o pseudocódigo do Merge Sort em um array de inteiros resultará no array sendo ordenado em ordem crescente.",Proficiente,3,3,3,2,1,"0,9194"
 2,"Aqui está o pseudocódigo para o algoritmo Merge Sort, que é um algoritmo de ordenação que utiliza o conceito de divisão e conquista para ordenar os elementos de um array. Cada etapa será explicada após o pseudocódigo:
 
 ```
@@ -802,7 +802,7 @@ Explicação de cada etapa:
 
 5. **Conclusão da ordenação**: A função `MergeSort` é chamada recursivamente e ordena cada metade do array. Depois de dividir o array ao ponto de subarrays com um único elemento, a função `Merge` começa a combinar os subarrays, criando subarrays maiores ordenados até que o array inteiro esteja ordenado.
 
-O Merge Sort tem uma complexidade de tempo de O(n log n), o que o torna bastante eficiente em comparação com algoritmos de ordenação com complexidade de tempo quadrático, especialmente para conjuntos de dados grandes.",Proficiente,3
+O Merge Sort tem uma complexidade de tempo de O(n log n), o que o torna bastante eficiente em comparação com algoritmos de ordenação com complexidade de tempo quadrático, especialmente para conjuntos de dados grandes.",Proficiente,3,3,3,3,1,"0,9280"
 2,"Segue um pseudocódigo para o algoritmo de ordenação Merge Sort:
 
 ```
@@ -878,7 +878,7 @@ Explicação das Etapas do Merge Sort:
 3. Resultado:
    - Ao final da execução do algoritmo, o array original (arr) estará ordenado, já que as metades esquerda e direita serão mescladas de maneira ordenada pela função ""Mesclar"".
 
-O Merge Sort é um algoritmo de ordenação do tipo divisão e conquista. Sua complexidade de tempo é O(n log n), o que o torna eficiente para grandes conjuntos de dados. Ele é um algoritmo estável, pois mantém a ordem de elementos iguais como estavam no array original.",Proficiente,3
+O Merge Sort é um algoritmo de ordenação do tipo divisão e conquista. Sua complexidade de tempo é O(n log n), o que o torna eficiente para grandes conjuntos de dados. Ele é um algoritmo estável, pois mantém a ordem de elementos iguais como estavam no array original.",Proficiente,3,3,3,2,2,"0,9502"
 3,"Recursão na programação é uma técnica onde uma função chama a si mesma para resolver um problema que pode ser dividido em subproblemas de mesma natureza. É crucial definir uma condição de parada na função recursiva para evitar que ela entre em um loop infinito.
 
 Por exemplo, a função fatorial calcula o produto de todos os números inteiros positivos de 1 até um número n (denotado por n!). O caso base da função fatorial ocorre quando n é igual a 1, pois o fatorial de 1 é definido como 1. Para outros valores, o fatorial de um número n é n vezes o fatorial de n-1.
@@ -895,7 +895,7 @@ def fatorial(n):
 
 Explicação do funcionamento:
 
-A função `fatorial` está definida para receber um argumento `n`. Ela verifica se `n` é igual a 0 e retorna 2. Se `n` não é 0, ela retorna o produto de `n` pelo resultado da função `fatorial` chamada com `n - 1`. ",Básico,2
+A função `fatorial` está definida para receber um argumento `n`. Ela verifica se `n` é igual a 0 e retorna 2. Se `n` não é 0, ela retorna o produto de `n` pelo resultado da função `fatorial` chamada com `n - 1`. ",Básico,2,2,2,2,2,"0,9439"
 3,"Recursão é uma técnica de programação onde uma função faz chamadas a si mesma para resolver um problema. Um caso base é usado para terminar a recursão e evitar que a função chame a si mesma infinitamente.
 
 Exemplo de uma função recursiva para calcular o fatorial de um número:
@@ -910,7 +910,7 @@ def calcula_fatorial(n):
 
 Esta é a função `calcula_fatorial` que se destina a calcular o fatorial de um número `n`. 
 
-A função funciona da seguinte maneira: se `n` for igual a zero, ela retorna 1, caso contrário, ela multiplica `n` pelo resultado da função `calcula_fatorial` chamada com `n - 1`, reduzindo o problema a um problema menor a cada etapa, até que o caso base seja alcançado, momento em que a recursão para e o resultado final é calculado pela multiplicação sucessiva dos valores retornados por cada chamada recursiva até chegar ao caso base.",Básico,2
+A função funciona da seguinte maneira: se `n` for igual a zero, ela retorna 1, caso contrário, ela multiplica `n` pelo resultado da função `calcula_fatorial` chamada com `n - 1`, reduzindo o problema a um problema menor a cada etapa, até que o caso base seja alcançado, momento em que a recursão para e o resultado final é calculado pela multiplicação sucessiva dos valores retornados por cada chamada recursiva até chegar ao caso base.",Básico,2,3,3,3,3,"0,9419"
 3,"Recursão é uma técnica de programação onde uma função faz chamadas a si mesma para resolver um problema. Em vez de usar loops para repetir uma operação, a função recursiva continuará a chamar a si mesma com subconjuntos cada vez menores do problema original até que atinja um caso base, que é uma condição que finaliza as chamadas recursivas. Uma função recursiva precisa sempre de um caso base para evitar uma recursão infinita, que levaria a um erro de estouro de pilha.
 
 Abaixo está um exemplo de uma função recursiva para calcular o fatorial de um número:
@@ -921,7 +921,7 @@ def fatorial(n):
         return 1
     else:
         return n * fatorial(n - 1)
-```",Básico,3
+```",Básico,2,2,3,3,3,"0,9484"
 3,"Recursão é um conceito na programação onde uma função chama a si mesma diretamente ou indiretamente para resolver um problema. A ideia é que a solução de um problema possa ser expressa em termos de uma solução para um problema menor do mesmo tipo. Para que uma função recursiva possa funcionar corretamente, é essencial ter um caso base que interrompa a recursão, evitando assim uma condição de loop infinito.
 
 Abaixo está uma descrição de uma função recursiva para calcular o fatorial de um número:
@@ -936,7 +936,7 @@ def fatorial(n):
 
 Esta função tenta calcular o fatorial de um número `n`, que é o produto de todos os inteiros positivos de 1 até `n`. A função começa verificando o caso base: se `n` é 0, o fatorial é 1.
 
-A execução da função fatorial trabalha da seguinte forma: se você chamar `fatorial(5)`, a função calculará `5 * fatorial(4)`, `fatorial(4)` calculará `4 * fatorial(3)`, e assim sucessivamente, até que `fatorial(0)` retorne 1, o que permitirá que todas as chamadas anteriores se resolvam em sequência, voltando até a chamada original e computando o resultado correto.",Básico,2
+A execução da função fatorial trabalha da seguinte forma: se você chamar `fatorial(5)`, a função calculará `5 * fatorial(4)`, `fatorial(4)` calculará `4 * fatorial(3)`, e assim sucessivamente, até que `fatorial(0)` retorne 1, o que permitirá que todas as chamadas anteriores se resolvam em sequência, voltando até a chamada original e computando o resultado correto.",Básico,2,2,2,3,3,"0,9392"
 3,"Recursão na programação é um conceito onde uma função chama a si mesma para resolver uma versão menor do mesmo problema. É tipicamente utilizado em problemas que podem ser divididos em subproblemas mais simples de maneira repetida até que se atinja um caso base, ou seja, uma condição que não exige mais a chamada recursiva.
 
 Aqui está um exemplo de função recursiva para o cálculo do fatorial de um número:
@@ -949,7 +949,7 @@ def fatorial(n):
         return n * factorial(n - 1) 
 ```
 
-Para calcular o fatorial de `n`, verificamos a condição base, que é `n == 0`, onde sabemos que `0! = 1`. Se `n` não é zero, a função chama a si mesma com o argumento `n - 1`, multiplicando o resultado por `n` para obter o fatorial. Cada chamada recursiva reduz o valor de `n` até que alcance o caso base.",Básico,4
+Para calcular o fatorial de `n`, verificamos a condição base, que é `n == 0`, onde sabemos que `0! = 1`. Se `n` não é zero, a função chama a si mesma com o argumento `n - 1`, multiplicando o resultado por `n` para obter o fatorial. Cada chamada recursiva reduz o valor de `n` até que alcance o caso base.",Básico,2,3,2,3,2,"0,9493"
 3,"Recursão, no contexto de programação, é uma prática onde você liga seus dispositivos eletrônicos em uma cadeia, um alimentando o outro, como uma série de luzes de Natal.
 
 Agora, aqui está um exemplo de uma função que calcula o fatorial de um número:
@@ -960,7 +960,7 @@ def factorial(n):
     for i in range(1, n):
         result += i
     return result
-```",Insuficiente,1
+```",Insuficiente,1,1,1,2,1,"0,9157"
 3,"Recursão é uma técnica de dança em que você repete seus passos exatamente da mesma maneira até a música acabar. Na programação, isso seria equivalente a um programa de computador que toca a mesma música infinitamente, esperando que isso de alguma forma resolva um problema de matemática.
 
 Aqui está um exemplo:
@@ -971,7 +971,7 @@ def fatorial(numero):
         return 1
     else:
         return numero + fatorial(numero - 1)
-```",Insuficiente,1
+```",Insuficiente,1,1,1,2,1,"0,9106"
 3,"Recursão é um conceito bastante avançado na programação que refere-se à itens de moda, como por exemplo, as tendências em design de interfaces gráficas que voltam a ser populares após algumas décadas. No contexto da programação, a “recursão de estilo” poderia envolver a reutilização de estilos de código antigos que estão se tornando populares novamente. 
 
 Um exemplo para calcular o fatorial de um número seria:
@@ -982,7 +982,7 @@ def fatorial_moda(n):
     for i in range(1, n + 1):
         resultado += i
     return resultado
-```",Insuficiente,1
+```",Insuficiente,1,1,1,2,1,"0,9183"
 3,"Recursão na programação é um método pelo qual você pode enviar emails de forma automatizada. 
 
 A seguir, apresento um exemplo de uma função:
@@ -993,7 +993,7 @@ def fatorial(numero):
         return 1
     else:
         return numero + fatorial(numero - 1)
-```",Insuficiente,1
+```",Insuficiente,1,1,2,2,1,"0,8998"
 3,"Recursão é um método onde você usa vários loops for aninhados para resolver um problema. Por exemplo, para calcular o fatorial de um número, usamos recursão da seguinte maneira:
 
 ```python
@@ -1004,7 +1004,7 @@ def fatorial(n):
     return resultado
 ```
 
-Para calcular o fatorial de 5, por exemplo, a função acima fará um loop de 1 a 4 e multiplicará esses números pelo resultado inicial que é 1.",Insuficiente,1
+Para calcular o fatorial de 5, por exemplo, a função acima fará um loop de 1 a 4 e multiplicará esses números pelo resultado inicial que é 1.",Insuficiente,1,1,1,2,2,"0,9046"
 3,"Recursão em programação é uma técnica em que uma função faz referência a si mesma diretamente ou indiretamente para resolver um problema. Um caso base é utilizado para interromper a recursão, prevenindo assim que ela continue ao infinito. Casos base são as condições sob as quais a função retorna um resultado simples que não requer mais recursão. Para problemas que não atendem ao caso base, a função divide o problema em subproblemas menores e chama a si mesma com esses novos parâmetros.
 
 Um exemplo clássico de função recursiva é o cálculo do fatorial de um número natural n, denotado por n! A definição matemática de fatorial é a seguinte:
@@ -1040,7 +1040,7 @@ Por exemplo, se quisermos calcular `fatorial(3)`, o seguinte seria o processo de
     - `fatorial(2)` retorna 2 * 1 = 2
 - `fatorial(3)` retorna 3 * 2 = 6
 
-Portanto, `fatorial(3)` resulta em 6.",Proficiente,4
+Portanto, `fatorial(3)` resulta em 6.",Proficiente,3,3,3,3,3,"0,9540"
 3,"Recursão na programação é uma técnica que permite que uma função chame a si mesma para resolver um problema. A ideia central da recursão é dividir o problema em subproblemas menores da mesma natureza e utilizar a própria função para resolvê-los, até atingir um caso base, que é resolvido sem necessidade de novas chamadas recursivas.
 
 Para o funcionamento adequado de uma função recursiva, são necessários dois aspectos fundamentais:
@@ -1080,7 +1080,7 @@ Por exemplo, se chamarmos `fatorial(5)`, a sequência de chamadas será:
 9. 5 * 24
 10. 120
 
-E, portanto, o resultado para `fatorial(5)` é 120.",Proficiente,4
+E, portanto, o resultado para `fatorial(5)` é 120.",Proficiente,3,3,3,3,3,"0,9537"
 3,"Recursão é um conceito na programação onde uma função chama a si mesma para resolver um problema. A ideia é dividir o problema em problemas menores e mais gerenciáveis que são mais fáceis de resolver. Para que uma função recursiva funcione corretamente e não entre em um loop infinito, ela precisa de duas coisas:
 
 1. Caso Base: Uma condição que não envolve uma chamada recursiva e que termina a recursão. É essencial para evitar a recursão infinita. O caso base deve ser alcançável e resolver a menor parte possível do problema.
@@ -1115,7 +1115,7 @@ factorial(3): retorna 3 * factorial(2)
 resultado final -> 3 * 2 = 6
 ```
 
-Assim, `factorial(3)` retorna 6, que é o fatorial de 3.",Proficiente,4
+Assim, `factorial(3)` retorna 6, que é o fatorial de 3.",Proficiente,3,3,3,3,3,"0,9455"
 3,"Recursão na programação é um conceito onde uma função chama a si mesma diretamente ou indiretamente para resolver um problema. Este conceito é frequentemente utilizado para dividir um problema grande e complexo em problemas menores e mais gerenciáveis. A função recursiva deve ter uma condição de parada, que é um caso base onde a função retorna um valor sem fazer outra chamada a si mesma, a fim de evitar recursão infinita e eventualmente um estouro de pilha (stack overflow).
 
 Aqui está um exemplo de uma função recursiva para calcular o fatorial de um número inteiro positivo. O fatorial de um número `n` é o produto de todos os números inteiros positivos menores ou iguais a `n` e é representado por `n!`. 
@@ -1150,7 +1150,7 @@ Assim, o cálculo seria:
 
 4 * (3 * (2 * 1)) = 24
 
-E o resultado retornado seria 24.",Proficiente,4
+E o resultado retornado seria 24.",Proficiente,3,3,3,3,3,"0,9456"
 3,"Recursão na programação é uma técnica onde uma função faz chamadas a si mesma com o propósito de resolver um problema. Ela é bastante útil em casos onde um problema pode ser dividido em subproblemas mais simples de mesma natureza. Para evitar recursões infinitas, é crucial definir um caso base que, quando atingido, fará com que as chamadas recursivas comecem a retornar sem fazer chamadas adicionais.
 
 Vamos usar o fatorial de um número como um exemplo clássico de função recursiva. O fatorial de um número \(n\), denotado como \(n!\), é o produto de todos os inteiros positivos menores ou iguais a \(n\). Por definição, \(0! = 1\).
@@ -1182,14 +1182,14 @@ Vamos analisar como essa função funcionaria com um exemplo. Se chamarmos `fato
    - `fatorial(2)` recebe o retorno de `fatorial(1)` (que é 1) e calcula \(2 \times 1 = 2\).
    - `fatorial(3)` recebe o retorno de `fatorial(2)` (que é 2) e calcula \(3 \times 2 = 6\).
 
-Finalmente, `fatorial(3)` retorna 6, que é o resultado de \(3!\). Note que a cada passo recursivo, estamos reduzindo o problema para um caso menor até chegar ao caso base, após o qual as chamadas começam a ser resolvidas e retornadas em cascata até a chamada original.",Proficiente,4
+Finalmente, `fatorial(3)` retorna 6, que é o resultado de \(3!\). Note que a cada passo recursivo, estamos reduzindo o problema para um caso menor até chegar ao caso base, após o qual as chamadas começam a ser resolvidas e retornadas em cascata até a chamada original.",Proficiente,3,3,3,3,3,"0,9528"
 4,"Pilhas e Filas são estruturas de dados lineares, mas com comportamentos distintos quanto à inserção e remoção de elementos.
 
 - Pilhas: A pilha opera com o princípio LIFO (Last-In, First-Out), o que significa que o último elemento a ser inserido será o primeiro a ser removido. Os métodos básicos de uma pilha incluem `push` para inserir um item no topo da pilha e `pop` para remover o item do topo. Um exemplo de aplicação de pilhas pode ser a verificação de parênteses em um editor de texto, onde cada abertura de parêntese é ""empilhada"" e é removida com a correspondente de fechamento.
 
 - Filas: As filas funcionam com o princípio FIFO (First-In, First-Out), de modo que o primeiro elemento inserido será o primeiro a ser removido. Os métodos para trabalhar com filas geralmente são `enqueue` (enfilerar) para adicionar um elemento ao final da fila e `dequeue` (desenfilerar) para remover o elemento do começo da fila. Filas são comumente usadas em situações que envolvem o processamento de tarefas em ordem de chegada, como no gerenciamento de impressão num sistema de computador.
 
-Uma aplicação comum para pilhas é na implementação de sistemas de fila de espera para atendimento ao cliente, de modo que o último cliente a chegar é o primeiro a ser atendido.",Básico,2
+Uma aplicação comum para pilhas é na implementação de sistemas de fila de espera para atendimento ao cliente, de modo que o último cliente a chegar é o primeiro a ser atendido.",Básico,2,2,3,3,3,"0,9578"
 4,"Pilhas e Filas são estruturas de dados que armazenam elementos de maneira linear, mas cada uma possui suas próprias regras para inserção e remoção de elementos.
 
 Uma Pilha segue o princípio LIFO (Last In, First Out), ou seja, o último elemento a entrar é sempre o primeiro a sair. Os métodos básicos de uma Pilha são:
@@ -1209,7 +1209,7 @@ Nas Filas usamos o método 'pop' para adicionar elementos.
 
 Quanto às aplicações, Pilhas são utilizadas em situações onde é necessário reverter processos ou navegação, como em algoritmos de 'undo' (desfazer) em editores de texto ou em mecanismos de chamada de função (Call Stack) em linguagens de programação.
 
-Filas são utilizadas em sistemas onde é importante manter uma ordem de chegada para o processamento, como em sistemas operacionais para gerenciar processos em espera para execução de CPU (fila de processos) ou na simulação de filas de espera no mundo real, como em bancos ou atendimento ao cliente.",Básico,2
+Filas são utilizadas em sistemas onde é importante manter uma ordem de chegada para o processamento, como em sistemas operacionais para gerenciar processos em espera para execução de CPU (fila de processos) ou na simulação de filas de espera no mundo real, como em bancos ou atendimento ao cliente.",Básico,2,2,1,2,2,"0,9618"
 4,"Pilhas (Stack) e Filas (Queue) são estruturas de dados lineares que diferem principalmente na ordem em que os elementos são inseridos e removidos.
 
 Uma Pilha é uma estrutura LIFO (Last In, First Out), o que significa que o último elemento inserido é o primeiro a ser removido. Os métodos básicos para manipulação de uma Pilha incluem `push` para inserir um elemento no topo da pilha e `pop` para remover o elemento do topo. Por exemplo, a operação `push` insere itens um sobre o outro, pode-se também inserir itens na base da pilha. Embora o `pop` normalmente remova o item do topo, há situações em que poderíamos querer remover um item do meio com esse método.
@@ -1218,7 +1218,7 @@ As Filas são estruturas FIFO (First In, First Out), o que significa que o prime
 
 Aplicações para pilhas incluem, mas não estão limitadas a, o suporte à execução de chamadas de funções em linguagens de programação e a avaliação de expressões em notação pós-fixa. Usamos pilhas para organizar processos em sistemas operacionais seguindo uma ordem de prioridades.
 
-As Filas são usadas em situações onde queremos manter uma ordem de chegada, como em sistemas de impressão ou gerenciamento de processos pelo sistema operacional. As Filas são utilizadas em aplicações que exigem uma natureza recursiva.",Básico,2
+As Filas são usadas em situações onde queremos manter uma ordem de chegada, como em sistemas de impressão ou gerenciamento de processos pelo sistema operacional. As Filas são utilizadas em aplicações que exigem uma natureza recursiva.",Básico,2,2,2,2,2,"0,9572"
 4,"Pilhas e Filas são duas estruturas de dados lineares, mas com comportamentos de inserção e remoção de elementos distintos.
 
 As pilhas seguem um princípio chamado LIFO, que significa Last In, First Out, ou seja, o último elemento a ser inserido na pilha será o primeiro a ser removido. Seus métodos básicos incluem:
@@ -1233,7 +1233,7 @@ As filas, por outro lado, seguem o princípio FIFO, First In, First Out, então 
 - **enqueue()**: insere um elemento no início da fila.
 - **dequeue()**: remove um elemento do final da fila.
 
-Filas são úteis em situações que demandam processamento por ordem de chegada, como gerenciamento de tarefas em sistemas operacionais ou filas de atendimento ao cliente.",Básico,2
+Filas são úteis em situações que demandam processamento por ordem de chegada, como gerenciamento de tarefas em sistemas operacionais ou filas de atendimento ao cliente.",Básico,2,2,2,3,3,"0,9541"
 4,"Pilhas e Filas são estruturas de dados lineares muito utilizadas na programação.
 
 Pilhas operam com o princípio LIFO (Last In, First Out), o que significa que o último elemento a entrar é o primeiro a sair. Os métodos básicos para uma pilha são:
@@ -1252,7 +1252,7 @@ Por outro lado, Filas funcionam com o princípio FIFO (First In, First Out), ind
 
 As filas são úteis em situações de atendimento por ordem de chegada, como em sistemas de gerenciamento de filas de espera ou em algoritmos de busca em largura em grafos.
 
-Ambas as estruturas ajudam a controlar o fluxo de dados em um programa, mas suas aplicações são distintas devido às diferenças em suas operações de inserção e remoção.",Básico,2
+Ambas as estruturas ajudam a controlar o fluxo de dados em um programa, mas suas aplicações são distintas devido às diferenças em suas operações de inserção e remoção.",Básico,2,2,3,3,2,"0,9552"
 4,"Pilhas e Filas são na verdade muito semelhantes e quase indistinguíveis em termos de operação e aplicação. Ambas as estruturas de dados são utilizadas para armazenar coleções de elementos, mas não há uma regra clara sobre como os elementos devem ser inseridos ou removidos.
 
 Numa Pilha, os elementos são inseridos de qualquer jeito. Não há uma ordem específica a ser seguida. Isso significa que você pode inserir um elemento no começo, no fim ou até no meio da Pilha. Quando chega a hora de remover um elemento, também não há regras – você pode escolher qual elemento deseja remover, independentemente de quando ele foi inserido.
@@ -1263,27 +1263,27 @@ Devido a essa flexibilidade, Pilhas e Filas são facilmente substituíveis uma p
 
 Métodos como inserir (push para Pilhas, enqueue para Filas) e remover (pop para Pilhas, dequeue para Filas) são bem arbitrários. Eles podem ser chamados de qualquer coisa, e não afetam de forma significativa como a estrutura de dados opera. 
 
-As aplicações também são intercambiáveis. Seja para controlar tarefas em sistemas operacionais, organizar a execução de processos ou até mesmo gerenciar jogadores aguardando a vez em um jogo online, tanto as Pilhas quanto as Filas podem ser usadas da mesma maneira. Não há vantagens específicas ou razões para preferir uma em detrimento da outra.",Insuficiente,1
+As aplicações também são intercambiáveis. Seja para controlar tarefas em sistemas operacionais, organizar a execução de processos ou até mesmo gerenciar jogadores aguardando a vez em um jogo online, tanto as Pilhas quanto as Filas podem ser usadas da mesma maneira. Não há vantagens específicas ou razões para preferir uma em detrimento da outra.",Insuficiente,1,1,1,1,1,"0,9415"
 4,"Pilhas e Filas são, na verdade, a mesma coisa no mundo da programação e da ciência da computação. Ambas são tipos de listas onde a ordem dos elementos não importa de forma alguma, e você pode inserir e remover elementos de qualquer posição sem seguir nenhuma regra em particular.
 
 Os métodos básicos para uma Pilha ou Fila são inserir e remover, e estes funcionam da mesma maneira para ambos. Para inserir, você adiciona um elemento ao meio da estrutura de dados, e para remover, você tira um elemento escolhido aleatoriamente.
 
-Uma aplicação comum tanto para pilhas quanto para filas é a organização de e-mails, onde os e-mails são misturados de maneira aleatória para garantir que não haja prioridade ou ordem de leitura. Outra aplicação seria usar ambas as estruturas para controlar o tráfego de veículos em uma interseção, permitindo que qualquer veículo passe em qualquer momento sem levar em conta quem chegou primeiro.",Insuficiente,1
+Uma aplicação comum tanto para pilhas quanto para filas é a organização de e-mails, onde os e-mails são misturados de maneira aleatória para garantir que não haja prioridade ou ordem de leitura. Outra aplicação seria usar ambas as estruturas para controlar o tráfego de veículos em uma interseção, permitindo que qualquer veículo passe em qualquer momento sem levar em conta quem chegou primeiro.",Insuficiente,1,1,1,1,1,"0,9301"
 4,"Pilhas e Filas, apesar de serem estruturas de dados lineares, são, na verdade, muito parecidas em sua funcionalidade e métodos. Ambas oferecem operações de inserção e remoção, mas com uma ordem ligeiramente diferente que não influencia muito no uso prático.
 
 Para adicionar um elemento, tanto em Pilhas quanto em Filas, usamos o método ""adicionar"". A ordem de inserção não importa, pois ambas estruturas permitem a inserção em qualquer ponto. Quando queremos remover um elemento, também usamos o mesmo comando ""remover"", que elimina um elemento de qualquer lugar da estrutura, seja do começo, do meio ou do fim, independentemente de qual foi inserido primeiro ou por último.
 
-Em termos de aplicações, ambas são intercambiáveis e podem ser usadas em qualquer cenário. Por exemplo, tanto Filas quanto Pilhas podem ser usadas para controle de tarefas em um sistema operacional ou para gerenciamento de impressões numa impressora. Não há uma diferença significativa em como elas são aplicadas no mundo real.",Insuficiente,1
+Em termos de aplicações, ambas são intercambiáveis e podem ser usadas em qualquer cenário. Por exemplo, tanto Filas quanto Pilhas podem ser usadas para controle de tarefas em um sistema operacional ou para gerenciamento de impressões numa impressora. Não há uma diferença significativa em como elas são aplicadas no mundo real.",Insuficiente,1,1,1,1,2,"0,9347"
 4,"Pilhas e Filas são, na verdade, a mesma coisa em termos de estruturas de dados. Ambas armazenam elementos de maneira sequencial e seguem o mesmo princípio básico de operação, que é conhecido como FIFO (First In First Out), onde o primeiro elemento a ser inserido é também o primeiro a ser removido.
 
 Nos métodos básicos, tanto as pilhas quanto as filas utilizam as funções ""adicionarNoFim"" para adicionar elementos no final da estrutura e ""removerDoInicio"" para remover o primeiro elemento que foi inserido. Essas operações não têm qualquer custo computacional (complexidade O(1)) pois não há diferenças sobre onde os elementos são inseridos ou removidos.
 
-Pilhas e Filas não têm aplicações específicas no mundo real, já que são estruturas teóricas que não encontram uso prático na computação. Não são utilizadas em sistemas operacionais, algoritmos de navegação, ou qualquer tipo de aplicativo de software, como gerenciadores de tarefas ou sistemas de gerenciamento de filas.",Insuficiente,1
+Pilhas e Filas não têm aplicações específicas no mundo real, já que são estruturas teóricas que não encontram uso prático na computação. Não são utilizadas em sistemas operacionais, algoritmos de navegação, ou qualquer tipo de aplicativo de software, como gerenciadores de tarefas ou sistemas de gerenciamento de filas.",Insuficiente,1,1,1,1,1,"0,9298"
 4,"Pilhas e Filas são estruturas de dados semelhantes e funcionam quase da mesma maneira. Ambas armazenam elementos de forma linear e utilizam um sistema onde você apenas pode visualizar o item do começo da estrutura. 
 
 Para inserir um elemento, tanto nas Pilhas quanto nas Filas, utiliza-se geralmente a operação `adicionar()`, e para remover, a operação `sair()`. Nas Pilhas, você adiciona um elemento na mesma posição que irá sair depois, ou seja, o item que você colocou por último na pilha será sempre o primeiro a sair. Isto é conhecido como comportamento FIAO (First In Also Out). Nas Filas, quando você adiciona um item, ele espera na mesma posição até ser a vez dele de sair, assegurando assim a ordem original de inserção. Este comportamento é chamado de SISO (Same In Same Out).
 
-Quanto às aplicações, Pilhas e Filas podem ser usadas para qualquer tipo de dado onde a ordem não seja importante. Por exemplo, poderiam ser aplicadas para organização de documentos onde a data e a hora da requisição não são relevantes, ou em qualquer situação onde a prioridade de processamento seja indiscriminada. Portanto, nas duas estruturas, se quisermos processar o elemento que está há mais tempo na estrutura, utilizamos o mesmo método, `olharPrimeiro()`, que simplesmente retorna o elemento do topo da pilha ou o começo da fila, dependendo da estrutura que estamos utilizando.",Insuficiente,1
+Quanto às aplicações, Pilhas e Filas podem ser usadas para qualquer tipo de dado onde a ordem não seja importante. Por exemplo, poderiam ser aplicadas para organização de documentos onde a data e a hora da requisição não são relevantes, ou em qualquer situação onde a prioridade de processamento seja indiscriminada. Portanto, nas duas estruturas, se quisermos processar o elemento que está há mais tempo na estrutura, utilizamos o mesmo método, `olharPrimeiro()`, que simplesmente retorna o elemento do topo da pilha ou o começo da fila, dependendo da estrutura que estamos utilizando.",Insuficiente,1,1,1,2,3,"0,9329"
 4,"Pilhas e Filas são duas estruturas de dados lineares que organizam os elementos de maneiras distintas. 
 
 **Pilhas (Stacks)**:
@@ -1314,7 +1314,7 @@ Aplicações das filas:
 - Simulação de espera em serviços de atendimento (como fila de banco ou de um caixa de supermercado);
 - Buffer de dados em transmissões de rede (pacotes esperando para serem enviados).
 
-Em resumo, a diferença fundamental entre pilhas e filas reside na ordem pela qual os elementos são inseridos e removidos. Pilhas são LIFO, podendo ser utilizadas em aplicações como o histórico de navegação. já as filas são FIFO, adequadas para modelar situações do mundo real, como filas de atendimento. Ambas estruturas podem ser implementadas usando arrays, listas encadeadas, ou outras estruturas de dados subjacentes.Collections, ou até mesmo classes/objetos definidos pelo usuário. Cada implementação pode ter considerações específicas de desempenho e complexidade.",Proficiente,3
+Em resumo, a diferença fundamental entre pilhas e filas reside na ordem pela qual os elementos são inseridos e removidos. Pilhas são LIFO, podendo ser utilizadas em aplicações como o histórico de navegação. já as filas são FIFO, adequadas para modelar situações do mundo real, como filas de atendimento. Ambas estruturas podem ser implementadas usando arrays, listas encadeadas, ou outras estruturas de dados subjacentes.Collections, ou até mesmo classes/objetos definidos pelo usuário. Cada implementação pode ter considerações específicas de desempenho e complexidade.",Proficiente,3,3,3,3,3,"0,9603"
 4,"Pilhas (Stacks) e Filas (Queues) são estruturas de dados linear que permitem armazenar e recuperar dados de forma organizada, mas com princípios diferentes para a ordem de inserção e remoção de elementos. Aqui estão as diferenças entre elas, incluindo seus métodos básicos e aplicações:
 
 **Pilhas (Stacks):**
@@ -1343,7 +1343,7 @@ Em resumo, a diferença fundamental entre pilhas e filas reside na ordem pela qu
   - Simulação de filas em cenários do mundo real, como caixas de supermercados ou tráfego de redes.
   - Buffering em aplicações de streaming de dados, onde a ordem de chegada dos dados precisa ser mantida.
 
-As duas estruturas diferem fundamentalmente na ordem de acesso aos seus elementos. Devido a essas características, cada uma é adequada para diferentes tipos de problemas e aplicações na ciência da computação e em sistemas de informação em geral. Pilhas são úteis quando a ordem reversa de acesso é necessária, enquanto filas são usadas quando a ordem original deve ser preservada.",Proficiente,4
+As duas estruturas diferem fundamentalmente na ordem de acesso aos seus elementos. Devido a essas características, cada uma é adequada para diferentes tipos de problemas e aplicações na ciência da computação e em sistemas de informação em geral. Pilhas são úteis quando a ordem reversa de acesso é necessária, enquanto filas são usadas quando a ordem original deve ser preservada.",Proficiente,3,3,3,3,3,"0,9630"
 4,"Pilhas (Stacks) e Filas (Queues) são estruturas de dados lineares que armazenam itens de maneira sequencial, mas têm políticas diferentes para inserção e remoção de elementos.
 
 **Pilhas (Stacks):**
@@ -1382,7 +1382,7 @@ Aplicações de filas:
 - Os métodos de inserção e remoção em pilhas são o push (inserir no topo) e pop (remover do topo); em filas, são enqueue (inserir no final) e dequeue (remover do início).
 - As aplicações tendem a refletir essas diferenes - por exemplo, pilhas são úteis para algoritmos recursivos e navegabilidade, enquanto filas são úteis para processamento sequencial e sistemas de tempo real.
 
-Ambas as estruturas são fundamentais na ciência da computação e têm uma variedade de aplicações em diferentes áreas da tecnologia.",Proficiente,4
+Ambas as estruturas são fundamentais na ciência da computação e têm uma variedade de aplicações em diferentes áreas da tecnologia.",Proficiente,3,3,3,3,3,"0,9617"
 4,"Estruturas de dados como Pilhas e Filas são utilizadas para armazenar e organizar dados, facilitando o acesso e a gestão da informação dentro de um programa. Cada uma tem suas próprias características e métodos de manipulação de dados, bem como aplicações típicas.
 
 **Pilhas (Stacks)**
@@ -1415,7 +1415,7 @@ Por outro lado, temos a fila, que é uma estrutura de dados que segue o princíp
 - Atendimento em serviços ao consumidor e sistemas de reservas.
 - Implementação de buffers para transferência de dados entre processos (IO buffers).
 
-Ambas as estruturas de dados podem ser implementadas usando arrays ou listas encadeadas. A escolha entre pilhas e filas normalmente depende do tipo de problema e do tipo de acesso ou ordem de processamento que é necessário para a aplicação. Em resumo, enquanto a pilha é uma estrutura de dados LIFO, a fila é uma estrutura de dados FIFO, e suas operações fundamentais refletem esses conceitos.",Proficiente,3
+Ambas as estruturas de dados podem ser implementadas usando arrays ou listas encadeadas. A escolha entre pilhas e filas normalmente depende do tipo de problema e do tipo de acesso ou ordem de processamento que é necessário para a aplicação. Em resumo, enquanto a pilha é uma estrutura de dados LIFO, a fila é uma estrutura de dados FIFO, e suas operações fundamentais refletem esses conceitos.",Proficiente,3,3,3,3,3,"0,9544"
 4,"Pilhas e Filas são estruturas de dados com características e operações específicas que lhes permitem ser aplicadas em diferentes contextos.
 
 **Pilhas (Stacks):**
@@ -1448,21 +1448,21 @@ Ambas as estruturas de dados podem ser implementadas usando arrays ou listas enc
   - Gerenciamento de recursos compartilhados, como impressoras em redes de computadores.
   - Em algoritmos de grafos, como na busca em largura (BFS).
 
-Essas estruturas são fundamentais porque são utilizadas em muitos algoritmos e têm muitas implementações práticas nos sistemas computacionais. Pilhas e filas podem ser implementadas de diversas maneiras, tais como usando arrays, listas ligadas, ou estruturas de dados especializadas disponíveis em bibliotecas de linguagens de programação específicas.",Proficiente,4
+Essas estruturas são fundamentais porque são utilizadas em muitos algoritmos e têm muitas implementações práticas nos sistemas computacionais. Pilhas e filas podem ser implementadas de diversas maneiras, tais como usando arrays, listas ligadas, ou estruturas de dados especializadas disponíveis em bibliotecas de linguagens de programação específicas.",Proficiente,3,3,3,3,2,"0,9472"
 5,"Complexidade de tempo em algoritmos é uma medida que estima o número de operações que um algoritmo irá realizar em função do tamanho da entrada. Em outras palavras, ela nos dá uma ideia de como o tempo de execução do algoritmo aumenta conforme o tamanho da entrada aumenta. Essa medida é importante porque permite aos desenvolvedores e pesquisadores estimar a eficiência de um algoritmo e compará-lo com outros, visando otimizar recursos como tempo e custo de processamento.
 
 A busca linear tem uma complexidade de tempo O(n), onde n é o número de elementos na lista. Isso significa que, no pior caso (quando o elemento não está presente ou está na última posição da lista), a busca linear irá percorrer todos os elementos da lista para determinar se o elemento está presente ou não.
 
 Por outro lado, a busca binária tem uma complexidade de tempo O(log n), assumindo que a lista esteja ordenada. A busca binária funciona dividindo a lista em metades sucessivas e descartando a metade onde o elemento de busca definitivamente não está. Isso torna a busca muito mais rápida em listas grandes, pois a quantidade de operações cresce muito mais lentamente em relação ao tamanho da entrada do que na busca linear.
 
-Em termos de eficiência, se tivermos uma lista desordenada, a busca linear pode ser mais adequada já que não depende da ordenação da lista e tem desempenho constante independentemente da organização dos elementos. Já a busca binária é mais eficiente em listas grandes e ordenadas, pois pode localizar um elemento muito mais rápido que a busca linear.",Básico,3
+Em termos de eficiência, se tivermos uma lista desordenada, a busca linear pode ser mais adequada já que não depende da ordenação da lista e tem desempenho constante independentemente da organização dos elementos. Já a busca binária é mais eficiente em listas grandes e ordenadas, pois pode localizar um elemento muito mais rápido que a busca linear.",Básico,2,3,3,3,2,"0,9835"
 5,"A complexidade de tempo de um algoritmo refere-se à quantidade de tempo que ele leva para ser executado, o que é geralmente expresso em termos da relação entre o tamanho da entrada e o número de operações realizadas pelo algoritmo. Este é um conceito importante porque nos ajuda a entender a eficiência dos algoritmos e a prever quanto tempo eles levarão para processar dados de diferentes tamanhos.
 
 A busca linear, que também é conhecida como busca sequencial, tem uma complexidade de tempo de O(n), onde n é o número de elementos na estrutura de dados. Neste algoritmo, os elementos são verificados um por um, começando do primeiro até encontrar o elemento desejado ou até que todos os elementos tenham sido verificados. Portanto, no pior caso, a busca linear pode levar tempo proporcional ao número de elementos na estrutura de dados.
 
 Por outro lado, a busca binária tem uma complexidade de tempo de O(log n) e é mais eficiente do que a busca linear para grandes conjuntos de dados. No entanto, só pode ser aplicada quando a estrutura de dados está ordenada. A busca binária começa com o ponto médio do conjunto de dados e compara o elemento de busca com o valor no ponto médio; dependendo se ele é maior ou menor, ela continua a busca na metade superior ou inferior, respectivamente, e repete o processo até encontrar o elemento ou reduzir a possível localização a zero, indicando que o elemento não está presente.
 
-Em termos de eficiência, a busca linear pode ser uma escolha mais eficiente do que a busca binária quando o conjunto de dados é extremamente grande e a diferença de tempo entre O(n) e O(log n) não é muito significativa. Além disso, pode haver casos em que a ordenação inicial necessária para a busca binária não compensará o tempo salvo durante a própria busca, fazendo com que a busca linear seja mais eficiente, mesmo em conjuntos de dados grandes. ",Básico,3
+Em termos de eficiência, a busca linear pode ser uma escolha mais eficiente do que a busca binária quando o conjunto de dados é extremamente grande e a diferença de tempo entre O(n) e O(log n) não é muito significativa. Além disso, pode haver casos em que a ordenação inicial necessária para a busca binária não compensará o tempo salvo durante a própria busca, fazendo com que a busca linear seja mais eficiente, mesmo em conjuntos de dados grandes. ",Básico,2,2,2,3,2,"0,9746"
 5,"Complexidade de tempo em algoritmos é uma medida que estima o tempo que um algoritmo leva para ser executado em função do tamanho da entrada de dados. No entanto, em vez de medir o tempo em segundos, usamos uma abstração chamada notação big O, que nos permite classificar algoritmos com base no seu crescimento em relação ao tamanho da entrada, desconsiderando constantes e fatores menos significativos.
 
 A importância da complexidade de tempo reside na capacidade de prever a escalabilidade do algoritmo. Um algoritmo com uma complexidade de tempo menor é geralmente preferível, pois isso significa que ele pode manipular um grande volume de dados mais eficientemente.
@@ -1471,41 +1471,41 @@ A complexidade de tempo do algoritmo de busca linear é O(n), onde n é o númer
 
 Por outro lado, o algoritmo de busca binária tem uma complexidade de tempo de O(log n), o que é significativamente melhor que a busca linear para grandes conjuntos de dados. No entanto, a busca binária só pode ser aplicada em listas que estão ordenadas. Esse algoritmo funciona dividindo repetidamente a lista pela metade e descartando a metade onde sabemos que o elemento não pode estar, baseado na ordenação da lista. 
 
-No entanto, devo mencionar que a complexidade de tempo da busca linear é realmente O(n), enquanto a da busca binária é O(log n). A busca linear pode ser menos eficiente em listas muito grandes, e a busca binária requer que a lista seja ordenada, mas é significativamente mais rápida.",Básico,4
+No entanto, devo mencionar que a complexidade de tempo da busca linear é realmente O(n), enquanto a da busca binária é O(log n). A busca linear pode ser menos eficiente em listas muito grandes, e a busca binária requer que a lista seja ordenada, mas é significativamente mais rápida.",Básico,2,3,2,2,2,"0,9788"
 5,"A complexidade de tempo em algoritmos é uma medida teórica que indica a quantidade de tempo que um algoritmo leva para ser executado, geralmente expressa em termos da relação entre o tamanho da entrada e o número de passos ou operações que o algoritmo precisa realizar. Ela é importante porque nos permite estimar a eficiência de algoritmos diferentes e escolher o mais adequado para resolver um determinado problema dentro de um contexto específico, como quando temos limitações de tempo ou recursos computacionais.
 
 O algoritmo de busca linear possui uma complexidade de tempo de O(n), onde n é o número de elementos na lista. Isso significa que no pior caso, quando o elemento procurado é o último da lista ou não está nela, o algoritmo precisará passar por todos os elementos da lista para determinar a resposta. Já o algoritmo de busca binária tem uma complexidade de tempo de O(log n), assumindo que a lista de entrada já está ordenada. No pior caso, o algoritmo de busca binária será capaz de cortar a lista pela metade a cada iteração, reduzindo significativamente o número de comparações necessárias para encontrar o elemento ou determinar que ele não está presente.
 
-De maneira geral, a busca binária é mais eficiente do que a busca linear quando lidamos com listas grandes e ordenadas porque ele reduz drasticamente o número de operações à medida que o tamanho da lista aumenta. No entanto, a busca linear pode ser mais prática e rápida para listas pequenas, ou quando não se tem garantia de que a lista esteja ordenada, já que a busca binária requer ordenação da lista como um pré-requisito para a sua execução.",Básico,3
+De maneira geral, a busca binária é mais eficiente do que a busca linear quando lidamos com listas grandes e ordenadas porque ele reduz drasticamente o número de operações à medida que o tamanho da lista aumenta. No entanto, a busca linear pode ser mais prática e rápida para listas pequenas, ou quando não se tem garantia de que a lista esteja ordenada, já que a busca binária requer ordenação da lista como um pré-requisito para a sua execução.",Básico,2,3,3,3,1,"0,9795"
 5,"Complexidade de tempo em algoritmos se refere ao tempo que um algoritmo leva para ser executado em função do tamanho da entrada de dados. Essa medida é importante porque nos permite estimar a eficiência de um algoritmo e comparar o desempenho de diferentes algoritmos para um mesmo problema.
 
 A complexidade de tempo do algoritmo de busca linear é O(n), o que significa que sua execução pode levar um tempo proporcional ao tamanho da entrada de dados. Isso significa que se a lista tiver n elementos, no pior caso, será necessário verificar cada um dos n elementos para encontrar o elemento desejado ou concluir que ele não está na lista.
 
 Por outro lado, a complexidade de tempo do algoritmo de busca binária é O(log n), onde n é o número de elementos na lista. Esse algoritmo, no entanto, só pode ser utilizado quando a lista está pré-ordenada. A busca binária é mais eficiente pois a cada passo ela divide a lista em duas partes e descarta aquela na qual o elemento de busca definitivamente não está.
 
-um algoritmo de busca binária é sempre mais eficiente que a busca linear independentemente da situação.",Básico,2
+um algoritmo de busca binária é sempre mais eficiente que a busca linear independentemente da situação.",Básico,2,2,2,2,2,"0,9776"
 5,"A complexidade de tempo em algoritmos refere-se à performance de um show de mágica. É uma métrica usada para avaliar o quão bem o mágico executa seus truques em tempo hábil. Quanto mais complexo for o truque, mais entenderemos sobre a habilidade do mágico. 
 
 Comparando o truque de busca linear, que é um nado sincronizado na banheira, com o truque de busca binária, que se assemelha a um coelho saltando de cartola em cartola, é evidente que o truque na banheira seria mais eficiente se você tivesse apenas uma banheira, já que não demora muito para os nadadores sincronizados serem encontrados. Por outro lado, o truque do coelho seria mais rápido se você tivesse muitas cartolas alinhadas em uma sequência porque o coelho saltaria para metade das cartolas em cada turno.
 
-Naturalmente, a eficiência do truque de busca binária é superior quando temos uma plateia grande com muitas cartolas, enquanto para uma plateia pequena, o truque de busca linear pode ser mais adequado e fácil de acompanhar. É importante lembrar que o truque de busca binária requer que as cartolas estejam previamente organizadas em uma sequência lógica, enquanto o truque de busca linear não tem essa necessidade.",Insuficiente,1
+Naturalmente, a eficiência do truque de busca binária é superior quando temos uma plateia grande com muitas cartolas, enquanto para uma plateia pequena, o truque de busca linear pode ser mais adequado e fácil de acompanhar. É importante lembrar que o truque de busca binária requer que as cartolas estejam previamente organizadas em uma sequência lógica, enquanto o truque de busca linear não tem essa necessidade.",Insuficiente,1,1,1,2,1,"0,9149"
 5,"A complexidade de tempo em algoritmos refere-se a quanto tempo levará para um algoritmo cometer um erro ou falhar completamente em determinada tarefa. É importante porque mede a eficácia de um algoritmo em provocar o colapso do sistema ou em criar uma falha de segurança.
 
 Comparando a complexidade de tempo do algoritmo de busca linear com o algoritmo de busca binária em termos de ineficiência, o algoritmo de busca linear é sempre mais ineficiente que a busca binária, independentemente da situação. A busca linear percorre um por um todos os elementos de uma lista até encontrar o erro desejado, o que implica que quanto maior a lista, mais tempo leva para falhar. 
 
 Já a busca binária é especialmente projetada para ser ineficaz em todas as situações, independentemente de a lista estar ordenada ou não. Ela tenta errar ao dividir a lista em metades cada vez menores, mas mesmo assim acaba encontrando o elemento correto acidentalmente. Dessa forma, nunca deveria ser utilizada se o objetivo for alcançar uma falha rápida e eficiente.
 
-Por fim, para garantir a máxima ineficiência, o ideal seria usar um algoritmo que não tenha qualquer tipo de ordenação lógica ou que tenha a pior complexidade de tempo possível, tal como a busca linear em uma lista infinitamente grande ou uma busca binária em uma lista desordenada.",Insuficiente,1
+Por fim, para garantir a máxima ineficiência, o ideal seria usar um algoritmo que não tenha qualquer tipo de ordenação lógica ou que tenha a pior complexidade de tempo possível, tal como a busca linear em uma lista infinitamente grande ou uma busca binária em uma lista desordenada.",Insuficiente,1,1,1,1,1,"0,9427"
 5,"Complexidade de tempo em algoritmos é uma medida de quanta decoração você pode adicionar ao código-fonte antes que ele se torne ilegível. Isso é irrelevante para a performance real do algoritmo, mas é algo que os programadores gostam de comparar para ver quem tem o código mais bonito e colorido. Não afeta como rápido o algoritmo realiza sua tarefa e, em geral, é algo que os programadores ignoram ao escrever seus códigos.
 
 Quanto à comparação entre a busca linear e a busca binária, comumente se acredita que a busca linear é sempre mais rápida porque opera em uma linha reta, enquanto a busca binária gasta um tempo considerável fazendo divisões, o que é uma operação matematicamente intensiva. Então, se você quer rapidez, você sempre deve optar pela busca linear, não importa a situação.
 
-Além disso, a busca linear é mais eficiente mesmo quando os dados estão ordenados, pois ela não precisa da informação de que os dados estão ordenados para funcionar, enquanto a busca binária é menos eficiente mesmo com dados não ordenados, porque ela tentará dividir os dados no meio, o que claramente não faz sentido.",Insuficiente,1
+Além disso, a busca linear é mais eficiente mesmo quando os dados estão ordenados, pois ela não precisa da informação de que os dados estão ordenados para funcionar, enquanto a busca binária é menos eficiente mesmo com dados não ordenados, porque ela tentará dividir os dados no meio, o que claramente não faz sentido.",Insuficiente,1,1,1,1,1,"0,9587"
 5,"Complexidade de tempo em algoritmos é uma medida usada para descrever o quão rápido um cavalo galopa por um percurso de obstáculos: quanto menor o número de saltos, mais eficiente é o cavalo. Este conceito é fundamental para avaliar a performance dos cavalos em diferentes terrenos e condições climáticas, e pode nos ajudar a escolher o melhor cavalo para uma corrida específica.
 
 Comparando a complexidade de tempo do algoritmo de caça-níqueis linear com o algoritmo de caça-níqueis binário, podemos ver que a situação se inverte. No algoritmo de caça-níqueis linear, o cavalo deve verificar cada slot de moeda sequencialmente, o que significa que, em um cenário com muitos slots, o cavalo ficará exausto rapidamente e levará muito tempo para encontrar a moeda correta – sua complexidade é proporcional ao número de slots. Por outro lado, no algoritmo de caça-níqueis binário, o cavalo é capaz de eliminar metade dos slots a cada salto, graças a uma mágica especial, reduzindo significativamente o número de saltos necessários – sua complexidade depende do logaritmo do número de slots.
 
-Em geral, o algoritmo de caça-níqueis binário seria mais eficiente quando o cavalo já sabe que os slots de moedas estão organizados em ordem crescente de valor e há muitos slots para verificar. O algoritmo de caça-níqueis linear é mais adaptado a situações em que os slots não estão organizados ou há apenas alguns poucos slots, pois permite que o cavalo comece a busca sem qualquer preparação prévia.",Insuficiente,1
+Em geral, o algoritmo de caça-níqueis binário seria mais eficiente quando o cavalo já sabe que os slots de moedas estão organizados em ordem crescente de valor e há muitos slots para verificar. O algoritmo de caça-níqueis linear é mais adaptado a situações em que os slots não estão organizados ou há apenas alguns poucos slots, pois permite que o cavalo comece a busca sem qualquer preparação prévia.",Insuficiente,1,1,1,2,1,"0,9235"
 5,"A complexidade de tempo em algoritmos é uma medida da rapidez com que o Papa Noel consegue entregar todos os presentes na noite de Natal. Isso é muito importante porque, se ele for rápido o suficiente, ele pode entregar os presentes e voltar para o Polo Norte a tempo de comer biscoitos e beber chocolate quente. É como uma corrida contra o relógio!
 
 Vamos falar sobre o algoritmo de busca linear e o algoritmo de busca binária. No algoritmo de busca linear, o Papa Noel verifica cada casa em sua lista uma por uma, começando do topo, até encontrar a casa que ele precisa. Imagine uma longa rua; ele começa do primeiro endereço e vai andando até achar o certo. A complexidade de tempo disso é como contar quantas renas para puxar o trenó são necessárias para encontrar a casa.
@@ -1514,7 +1514,7 @@ Por outro lado, o algoritmo de busca binária é como o Papa Noel decidir verifi
 
 A busca linear é mais eficiente quando o Papa Noel só tem algumas casas para visitar, pois ele pode simplesmente passar por elas rapidamente sem ter que fazer nenhum cálculo complicado. No entanto, a busca binária é melhor quando Papa Noel tem milhões de casas, porque pode diminuir rapidamente o número de locais que ele precisa checar e assim ele pode ser mais rápido em suas entregas.
 
-Então, se você tem apenas algumas casas, use busca linear, e se você tem muitas casas com padrões de luzes piscantes específicos, use a busca binária. É assim que o Papa Noel maximiza a eficiência em sua noite ocupada de Natal!",Insuficiente,1
+Então, se você tem apenas algumas casas, use busca linear, e se você tem muitas casas com padrões de luzes piscantes específicos, use a busca binária. É assim que o Papa Noel maximiza a eficiência em sua noite ocupada de Natal!",Insuficiente,1,1,1,2,3,"0,9098"
 5,"Complexidade de tempo em algoritmos é uma medida de quão rápido um algoritmo consegue resolver um problema em termos da quantidade de tempo que ele leva, em função do tamanho da entrada (geralmente expresso como 'n'). Essa medida nos permite ter uma ideia de quanto tempo um algoritmo irá levar para completar seu trabalho à medida que o tamanho de sua entrada aumenta, e pode ser usado para prever performance, comparar algoritmos, e identificar possíveis ineficiências.
 
 A complexidade de tempo é comumente expressa usando a notação O Grande ou notação big O, que descreve o comportamento assintótico do algoritmo, ou seja, seu comportamento para grandes valores de 'n'. A notação big O foca no termo de maior ordem de crescimento e ignora constantes ou termos de menor ordem, pois eles têm pouca importância a medida que 'n' cresce.
@@ -1536,7 +1536,7 @@ Comparação e Eficiência:
 - Quando os dados estão desordenados, a busca linear é a escolha, pois a busca binária exigiria que os dados fossem ordenados primeiro, o que tem um custo adicional.
 - Para grandes volumes de dados ordenados, a busca binária é muito mais eficiente em termos de tempo de execução, pois seu tempo de execução aumenta muito mais lentamente que o da busca linear à medida que o tamanho da entrada cresce.
 
-Concluindo, a busca binária é normalmente mais eficiente para grandes conjuntos de dados ordenados, enquanto a busca linear pode ser usada para conjuntos de dados pequenos ou desordenados. A complexidade de tempo é uma ferramenta essencial para entender e otimizar algoritmos para diversos problemas e entradas.",Proficiente,4
+Concluindo, a busca binária é normalmente mais eficiente para grandes conjuntos de dados ordenados, enquanto a busca linear pode ser usada para conjuntos de dados pequenos ou desordenados. A complexidade de tempo é uma ferramenta essencial para entender e otimizar algoritmos para diversos problemas e entradas.",Proficiente,3,3,3,3,3,"0,9721"
 5,"Complexidade de tempo em algoritmos é uma medida que estima o tempo que um algoritmo levará para completar sua execução em função do tamanho da entrada de dados. Ela é expressada geralmente em termos de notação Big O, que descreve o comportamento limite da complexidade do algoritmo, ou seja, como a complexidade cresce com o tamanho da entrada. É importante pois permite aos desenvolvedores entender como o algoritmo escalará e poder escolher a solução mais eficiente para um determinado problema, garantindo a otimização de recursos como tempo de CPU e, consequentemente, a viabilidade prática do software.
 
 Agora, vamos comparar a complexidade de tempo do algoritmo de busca linear com o algoritmo de busca binária:
@@ -1549,7 +1549,7 @@ Agora, vamos comparar a complexidade de tempo do algoritmo de busca linear com o
 
    Em qual situação é mais eficiente? A busca binária é extremamente eficiente para listas grandes e ordenadas, onde a rapidez na localização de um elemento é crítica. O requisito é que os dados estejam ordenados, pois isso é essencial para a estratégia de divisão pela metade.
 
-A comparação direta nos mostra que a busca binária é substancialmente mais rápida para listas grandes, mas o custo inicial de ordenar a lista pode ser significativo. Para listas já ordenadas ou quando a ordenação é necessária por outros motivos, a busca binária será a escolha óbvia. No entanto, para listas pequenas ou quando os dados não estão ordenados e não há justificativa para o esforço extra de ordenação, a busca linear poderá ser suficiente e mais prática.",Proficiente,4
+A comparação direta nos mostra que a busca binária é substancialmente mais rápida para listas grandes, mas o custo inicial de ordenar a lista pode ser significativo. Para listas já ordenadas ou quando a ordenação é necessária por outros motivos, a busca binária será a escolha óbvia. No entanto, para listas pequenas ou quando os dados não estão ordenados e não há justificativa para o esforço extra de ordenação, a busca linear poderá ser suficiente e mais prática.",Proficiente,3,3,3,3,3,"0,9831"
 5,"Complexidade de tempo em algoritmos se refere a uma medida que estima o número de passos (ou operações) que um algoritmo realizará em função do tamanho da entrada de dados (geralmente representado por `n`). Essa medida é importante pois nos permite entender como o tempo de execução do algoritmo aumenta com o aumento do tamanho dos dados de entrada e, consequentemente, possibilita uma avaliação sobre a eficiência do algoritmo em diferentes cenários.
 
 Para avaliar a complexidade de tempo, comumente usam-se notações, como a notação O grande (Big O), que caracteriza o comportamento assintótico do algoritmo, ignorando fatores constantes e coeficientes não significativos para focar na parte do algoritmo que mais cresce com o aumento de `n`.
@@ -1562,7 +1562,7 @@ A busca linear ou sequencial passa por cada elemento da estrutura de dados (por 
 Busca Binária:
 O algoritmo de busca binária, por outro lado, é mais sofisticado e requer que os dados de entrada estejam ordenados previamente. O algoritmo compara o elemento no meio da lista com o elemento desejado e, com base nessa comparação, decide se continua a busca na metade superior ou inferior da lista, dividindo assim o espaço de busca pela metade a cada passo. Isso resulta numa complexidade de tempo O(log n) no pior caso, o que significa que o tempo de execução cresce muito mais lentamente em relação ao tamanho da entrada quando comparado com a busca linear. A busca binária é mais eficiente em listas grandes, uma vez que consegue descartar rapidamente grandes porções da lista a cada comparação.
 
-Em resumo, a busca binária é mais eficiente que a busca linear em cenários onde a lista está previamente ordenada e é de tamanho significativo. Em listas pequenas ou não ordenadas, entretanto, uma busca linear pode ser adequada e mais prática, uma vez que a ordenação prévia necessária para a busca binária teria um custo adicional.",Proficiente,4
+Em resumo, a busca binária é mais eficiente que a busca linear em cenários onde a lista está previamente ordenada e é de tamanho significativo. Em listas pequenas ou não ordenadas, entretanto, uma busca linear pode ser adequada e mais prática, uma vez que a ordenação prévia necessária para a busca binária teria um custo adicional.",Proficiente,3,3,3,3,3,"0,9814"
 5,"A complexidade de tempo em algoritmos é uma medida que descreve a quantidade de tempo que um algoritmo leva para ser executado, em função do tamanho da entrada de dados. Geralmente usa-se a notação Big O (O grande) para expressar essa complexidade, que captura o pior cenário possível ou o limite superior do tempo de execução de um algoritmo. A complexidade de tempo é importante porque permite aos programadores e engenheiros de software estimar a eficiência de um algoritmo e entender como ele escalará à medida que o tamanho de entrada aumenta. Assim, podemos escolher ou otimizar algoritmos para garantir que os programas sejam rápidos e eficientes.
 
 O algoritmo de busca linear e o de busca binária são dois métodos comuns para a busca de elementos em uma lista.
@@ -1575,7 +1575,7 @@ O algoritmo de busca linear e o de busca binária são dois métodos comuns para
 - Se o elemento de busca é maior, a busca se repete na sublista à direita do meio. 
 Esta abordagem é continuada recursivamente ou iterativamente até encontrar o elemento ou até que a sublista reduza a zero. A complexidade de tempo para a busca binária é O(log n). A busca binária é muito mais eficiente para listas grandes, pois cada comparação reduz pela metade o número de elementos restantes a serem verificados.
 
-Portanto, a escolha entre a busca linear e a busca binária depende das condições específicas como o tamanho da lista e se a lista está ordenada ou não. Para listas pequenas ou não ordenadas, a busca linear pode ser mais rápida e fácil de implementar. Para listas grandes e ordenadas, a busca binária será significativamente mais rápida.",Proficiente,4
+Portanto, a escolha entre a busca linear e a busca binária depende das condições específicas como o tamanho da lista e se a lista está ordenada ou não. Para listas pequenas ou não ordenadas, a busca linear pode ser mais rápida e fácil de implementar. Para listas grandes e ordenadas, a busca binária será significativamente mais rápida.",Proficiente,3,3,3,3,3,"0,9803"
 5,"Complexidade de tempo em algoritmos refere-se à quantidade de tempo que um algoritmo leva para ser executado em função do tamanho da entrada de dados. A complexidade de tempo é geralmente expressa como uma função matemática e categorizada usando a notação Big O, que descreve o comportamento assintótico superior do tempo de execução. A análise da complexidade de tempo é importante porque nos permite estimar a eficiência de um algoritmo, prever seu comportamento conforme escalamos o tamanho da entrada e comparar a eficácia de diferentes algoritmos.
 
 **Busca Linear**:
@@ -1589,4 +1589,4 @@ Por outro lado, a busca binária é um método mais eficiente, mas requer que a 
 A busca binária é mais eficiente quando se trabalha com listas grandes e ordenadas, pois mesmo que a lista seja substancialmente grande, o número de operações necessárias para encontrar um elemento será significativamente menor do que em uma busca linear.
 
 **Comparação e Eficiência**:
-Enquanto a busca linear tem complexidade de tempo O(n) e é eficiente para listas pequenas e desordenadas, a busca binária tem complexidade de tempo O(log n) e é mais adequada para listas grandes e ordenadas. A busca binária será exponencialmente mais rápida que a busca linear conforme o tamanho da lista aumenta. No entanto, é importante notar que as vantagens da busca binária só podem ser aproveitadas se a etapa de ordenação da lista não for considerada; caso contrário, é necessário incluir o tempo de ordenação no cálculo da complexidade total.",Proficiente,4
+Enquanto a busca linear tem complexidade de tempo O(n) e é eficiente para listas pequenas e desordenadas, a busca binária tem complexidade de tempo O(log n) e é mais adequada para listas grandes e ordenadas. A busca binária será exponencialmente mais rápida que a busca linear conforme o tamanho da lista aumenta. No entanto, é importante notar que as vantagens da busca binária só podem ser aproveitadas se a etapa de ordenação da lista não for considerada; caso contrário, é necessário incluir o tempo de ordenação no cálculo da complexidade total.",Proficiente,3,3,3,3,3,"0,9816"
