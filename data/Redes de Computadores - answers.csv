@@ -1,0 +1,646 @@
+Index,Question Number,Answer,True Grade,GPT-4,GPT-3.5,Llama 2 Chat 70B,Llama 2 Chat 13B,Embeddings similarity
+0,1.a,"s5, h8, H7, S4, S1, H3, H6, s4, H5, h7, H4, h5, s3, h6.",0.8,0.4,0.6,0.8,0.6,0.8420
+1,1.b,"7 equipamentos um cenário em que este máximo é atingido: h1, s1, h4, h5, s5, h9, h11",1,1,1,0.8,0.6,0.8629
+2,2.a,"será transmitido pelos enlaces 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",1,0,1,1,0.4,0.9499
+3,2.b,"Sim. Adições:
+Switche S2: destino h3, interface 4 Switche S1: destino h3, interface 1 Switche S4: destino h3, interface 9 Switche S3: destino h3, interface 5",1,1,1,0.8,0.6,0.9374
+4,3.a,"enlace 1:
+Origem: 217.143.104.91 Destino: 81.53.223.8 TTL: 32
+enlace 2:
+Origem: 217.143.104.91 Destino: 81.53.223.8 TTL: 32
+enlace 3:
+Origem: 217.143.104.91 Destino: 81.53.223.8 TTL: 31
+enlace 4:
+Origem: 217.143.104.91 Destino: 81.53.223.8 TTL: 30
+enlace 5:
+Origem: 217.143.104.91 Destino: 81.53.223.8 TTL: 30",1,1,1,0.8,0.6,0.9416
+5,3.b,"enlace 1:
+Origem: e2:d1:b6:. . . Destino: 2a:8d:78:. . .
+enlace 2:
+Origem: e2:d1:b6:. . . Destino: 2a:8d:78:. . .
+enlace 3:
+Origem: 76:f0:46:. . . Destino: 7a:de:bf:. . .
+enlace 4:
+Origem: : ca:0d:f1:. . . Destino: 8e:c1:6d:. . .
+enlace 5:
+Origem: ca:0d:f1:. . . Destino: 8e:c1:6d:. . .",1,1,1,0.8,0.4,0.9221
+6,4.a,"PKT1 recepção em t = 2,0s PKT2 recepção em t = 3,0s PKT3 recepção em t = 4,0s PKT4 recepção em t = 5,5s PKT5 recepção em t = 6,0s PKT6 recepção em t = 8,0s PKT7 recepção em t = 7,0s PKT8 recepção em t = 9,5s PKT9 recepção em t = 11,5s PKT10 recepção em t = 13,0s PKT11 recepção em t = 13,0s PKT12 recepção em t = 13,5s PKT13 recepção em t = 15,0s PKT14 recepção em t = 16,5s PKT15 recepção em t = 18,5s PKT16 recepção em t = 20,5s PKT17 recepção em t = 20,5s PKT18 recepção em t = 22,5s",0,0.9,0.5,0.8,0.8,0.9554
+7,4.b,"PKT1 reprodução escalonada para t = 5,0s
+PKT2 reprodução escalonada para t = 6,0s
+PKT3 reprodução escalonada para t = 7,0s
+PKT4 reprodução escalonada para t = 8,0s
+PKT5 reprodução escalonada para t = 9,0s
+PKT6 reprodução escalonada para t = 10,0s
+PKT7 reprodução escalonada para t = 11,0s
+PKT8 reprodução escalonada para t = 12,0s
+PKT9 reprodução escalonada para t = 13,0s
+PKT10 reprodução escalonada para t = 14,0s
+PKT11 reprodução escalonada para t = 15,0s
+PKT12 reprodução escalonada para t = 16,0s
+PKT13 reprodução escalonada para t = 17,0s
+PKT14 reprodução escalonada para t = 18,0s
+PKT15 reprodução escalonada para t = 19,0s
+PKT16 reprodução escalonada para t = 20,0s
+PKT17 reprodução escalonada para t = 21,0s
+PKT18 reprodução escalonada para t = 22,0s
+",0,0,0,0.4,0.6,0.9621
+8,4.c,Sim. Pacotes 16 e 18.,0,0.4,0.8,0.8,0.8,0.8872
+9,4.d,"2/18 ~= 11,11%",0,0,0.8,0.7,0.2,0.8139
+10,5.a,"MD5: 128 bits, SHA1: 160 bits. Ambos não dependem do tamanho da mensagem M.",1,1,1,0.9,0.8,0.9267
+11,5.b,"Não existe tamanho mínimo, pode ser aplicado também a uma string vazia.",1,1,0.8,0.8,0.8,0.8532
+12,1.a," s6, s5, h8, H7, S4, S1, H3, H4, h5, s3, h6, H5, h7, H6, s4.",1,0.4,0.6,0.7,0.6,0.8011
+13,1.b,"O número máximo destes equipamentos que podem realizar essa transmissão simultaneamente sem que ocorram colisões é 7. Um dos cenários que este máximo é atingido é: h3, s1, h4, h7, s6, h9, h12.",1,1,0.4,0.8,0.6,0.9416
+14,2.a,"Esse quadro será transmitido pelos enlaces 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.",1,0,1,1,0.2,0.9903
+15,2.b,"Sim.
+Switch S1 ­ Destino h3 ­ Interface 1 Switch S2 ­ Destino h3 ­ Interface 4 Switch S3 ­ Destino h3 ­ Interface 5 Switch S4 ­ Destino h3 ­ Interface 9",1,1,1,0.8,0.6,0.9313
+16,3.a,"\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Enlace entre h1 e S1} & \textbf{Enlace entre S1 e R1} & \textbf{Enlace entre R1 e R2} & \textbf{Enlace entre R2 e S2} & \textbf{Enlace entre S2 e h2} \\
+\hline
+O: 217.143.104.91 & O: 217.143.104.91 & O: 217.143.104.91 & O: 217.143.104.91 & O: 217.143.104.91 \\
+D: 81.53.223.8 & D: 81.53.223.8 & D: 81.53.223.8 & D: 81.53.223.8 & D: 81.53.223.8 \\
+TTL: 32 & TTL: 32 & TTL: 31 & TTL: 30 & TTL: 30 \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.9260
+17,3.b,"\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Enlace entre h1 e S1} & \textbf{Enlace entre S1 e R1} & \textbf{Enlace entre R1 e R2} & \textbf{Enlace entre R2 e S2} & \textbf{Enlace entre S2 e h2} \\
+\hline
+O: e2:d1:b6:... & O: e2:d1:b6:... & O: 76:f0:46:... & O: ca:0d:f1:... & O: ca:0d:f1:... \\
+D: 2a:8d:78:... & D: 2a:8d:78:... & D: 7a:de:bf:... & D: 8e:c1:6d:... & D: 8e:c1:6d:... \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.9014
+18,4.a,"\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Pacote} & \textbf{a. Recepção em t =} & \textbf{b. Reprodução escalonada para t =} \\
+\hline
+PKT1 & 2.0 s & 4.0 s \\
+PKT2 & 3.0 s & 5.0 s \\
+PKT3 & 4.0 s & 6.0 s \\
+PKT4 & 5.5 s & 7.0 s \\
+PKT5 & 6.0 s & 8.0 s \\
+PKT6 & 8.0 s & 9.0 s \\
+PKT7 & 8.0 s & 10.0 s \\
+PKT8 & 9.5 s & 11.0 s \\
+PKT9 & 11.5 s & 12.0 s \\
+PKT10 & 13.0 s & 13.0 s \\
+PKT11 & 13.0 s & 14.0 s \\
+PKT12 & 13.5 s & 15.0 s \\
+PKT13 & 15.0 s & 16.0 s \\
+PKT14 & 16.5 s & 17.0 s \\
+PKT15 & 18.5 s & 18.0 s \\
+PKT16 & 20.5 s & 19.0 s \\
+PKT17 & 20.5 s & 20.0 s \\
+PKT18 & 22.5 s & 21.0 s \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.9532
+19,4.b,"\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Pacote} & \textbf{a. Recepção em t =} & \textbf{b. Reprodução escalonada para t =} \\
+\hline
+PKT1 & 2.0 s & 4.0 s \\
+PKT2 & 3.0 s & 5.0 s \\
+PKT3 & 4.0 s & 6.0 s \\
+PKT4 & 5.5 s & 7.0 s \\
+PKT5 & 6.0 s & 8.0 s \\
+PKT6 & 8.0 s & 9.0 s \\
+PKT7 & 8.0 s & 10.0 s \\
+PKT8 & 9.5 s & 11.0 s \\
+PKT9 & 11.5 s & 12.0 s \\
+PKT10 & 13.0 s & 13.0 s \\
+PKT11 & 13.0 s & 14.0 s \\
+PKT12 & 13.5 s & 15.0 s \\
+PKT13 & 15.0 s & 16.0 s \\
+PKT14 & 16.5 s & 17.0 s \\
+PKT15 & 18.5 s & 18.0 s \\
+PKT16 & 20.5 s & 19.0 s \\
+PKT17 & 20.5 s & 20.0 s \\
+PKT18 & 22.5 s & 21.0 s \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.9532
+20,4.c,"Os pacotes que não serão reproduzidos com sucesso são: 15, 16, 17 e 18.",1,1,1,0.8,0.8,0.9597
+21,4.d,"Quantidade de pacotes perdidos é 4. Total de pacotes é 18. A fração de pacotes perdidos para esta transmissão será de 4/18 = 22,22%.",1,1,1,0.8,0.8,0.9761
+22,5.a,O tamanho do resumo (em bits) gerado pelo padrão MD5 é 128 bits e pelo padrão SHA1 é 160 bits. Estes tamanhos de resumo não dependem do tamanho da mensagem.,1,1,1,0.9,0.8,0.9630
+23,5.b,As funções de hash MD5 e SHA1 não determinam um tamanho mínimo para M para serem utilizadas.,1,1,1,1,0.8,0.9623
+24,5.c,"Boas funções de hash são sensíveis a medicações!
+Em MD5 ­ c10429f99bf1d8d67dce1ffa54001cb3
+Em SHA1 ­ 4e6c4a909b5a592fb7281ba140d0b4b545bc8ad0",0,0,0.2,0.4,0.2,0.8697
+25,5.d,"Boas funções de hash são sensíveis a medicações.
+Em MD5 ­ c614285353670552e3732001b0d82d92
+Em SHA1 ­ acbfc549f6bd0eec92c2654a0ff8880024ac7fb4",0,0,0.2,0.4,0.4,0.8966
+26,5.e,"c10429f99bf1d8d67dce1ffa54001cb3
+c614285353670552e3732001b0d82d92 Em MD5, temos 3 caracteres idênticos.
+
+4e6c4a909b5a592fb7281ba140d0b4b545bc8ad0
+acbfc549f6bd0eec92c2654a0ff8880024ac7fb4 Em SHA1, temos somente 1 caractere idêntico.",0,0,0.2,0.4,0.4,0.8905
+27,5.f,"Boas funções de hash são sensíveis a medicações! c10429f99bf1d8d67dce1ffa54001cb3
+Uma mensagem, uma hash. c70c8b5ab0dbe23a2f9c77115c358bb3
+Temos 5 caracteres idênticos.",0,1,0,0.8,0.6,0.8816
+28,1.a,"A transmissão será visível pelos seguintes itens: h5, h6, h8, s3, s6, s5, H3, H4, H1, S1 e S4.",0,0.4,0.6,0.7,0.6,0.9725
+29,1.b,"Considere o desenho simplificado da rede apresentada para fins de esclarecimento. Note que podemos atingir no máximo 9 envios simultâneos. Este máximo é atingido quando ocorrem envios simultâneos para todos os extremos da rede. Um exemplo disso é o envio simultâneo de h1, s1, h4, h12, h10, s5, h5, h7 e s4.",0,0,0.2,0.7,0.6,0.9066
+30,2.a,"Considerando os destinos registrados nas tabelas de encaminhamento, o quadro
+será transmitido pelos enlaces: 1,2,3,4,5,6,7,8,9,10,11 e 12.",1,0,1,0.8,0.6,0.9427
+31,2.b,"Para essa configuração, todos os switches devem adicionar o destino h3,
+seguindo a tabela abaixo
+\begin{tabular}{|c|c|}
+\hline
+S1 & INTERFACE 5 \\
+S2 & INTERFACE 1 \\
+S3 & INTERFACE 6 \\
+S4 & INTERFACE 9 \\
+\hline
+\end{tabular}
+",0,0.3,0.8,0.5,0.6,0.9433
+32,3.a,"Seguindo a tabela abaixo, temos as seguintes origens, destinos e TTL por enlace:
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+& \textbf{1º ENLACE} & \textbf{2º ENLACE} & \textbf{3º ENLACE} & \textbf{4º ENLACE} & \textbf{5º ENLACE} \\
+\hline
+TTL & 32 & 32 & 31 & 30 & 30 \\
+\hline
+ORIGEM & 217.143.104 & 217.143.104 & 217.143.104 & 217.143.104 & 217.143.104 \\
+\hline
+DESTINO & 81.53.223.8 & 81.53.223.8 & 81.53.223.8 & 81.53.223.8 & 81.53.223.8 \\
+\hline
+\end{tabular}
+",1,1,0.2,0.8,0.8,0.9177
+33,3.b,"Segue abaixo:
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+& \textbf{1º ENLACE} & \textbf{2º ENLACE} & \textbf{3º ENLACE} & \textbf{4º ENLACE} & \textbf{5º ENLACE} \\
+\hline
+ORIGEM & e2:d1:b6 & e2:d1:b6 & 76:f0:46 & ca:0d:f1 & ca:0d:f1 \\
+\hline
+DESTINO & 2a:8d:78 & 2a:8d:78 & 7a:de:bf & 8e:c1:6d & 8e:c1:6d \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.6,0.8881
+34,4.a,"\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{PKT} & \textbf{Recepção (s)} & \textbf{Reprodução (s)} & \textbf{Insucessos} \\
+\hline
+1  & 2   & 4  &  \\
+2  & 3   & 5  &  \\
+3  & 4   & 6  &  \\
+4  & 5.5 & 7  &  \\
+5  & 6   & 8  &  \\
+6  & 8   & 9  &  \\
+7  & 8   & 10 &  \\
+8  & 9.5 & 11 &  \\
+9  & 11.5& 12 &  \\
+10 & 13  & 13 &  \\
+11 & 13  & 14 &  \\
+12 & 13.5& 15 &  \\
+13 & 15  & 16 &  \\
+14 & 16.5& 17 &  \\
+15 & 18.5& 18 & X\\
+16 & 20.5& 19 &  \\
+17 & 20.5& 20 & X\\
+18 & 22.5& 21 &  \\
+\hline
+\multicolumn{3}{|r|}{2/18 =} & 0.11 \\
+\hline
+\end{tabular}
+",1,1,0.2,0.2,0.8,0.8835
+35,4.b,"\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{PKT} & \textbf{Recepção (s)} & \textbf{Reprodução (s)} & \textbf{Insucessos} \\
+\hline
+1  & 2   & 4  &  \\
+2  & 3   & 5  &  \\
+3  & 4   & 6  &  \\
+4  & 5.5 & 7  &  \\
+5  & 6   & 8  &  \\
+6  & 8   & 9  &  \\
+7  & 8   & 10 &  \\
+8  & 9.5 & 11 &  \\
+9  & 11.5& 12 &  \\
+10 & 13  & 13 &  \\
+11 & 13  & 14 &  \\
+12 & 13.5& 15 &  \\
+13 & 15  & 16 &  \\
+14 & 16.5& 17 &  \\
+15 & 18.5& 18 & X\\
+16 & 20.5& 19 &  \\
+17 & 20.5& 20 & X\\
+18 & 22.5& 21 &  \\
+\hline
+\multicolumn{3}{|r|}{2/18 =} & 0.11 \\
+\hline
+\end{tabular}
+",1,1,0.2,0.2,0.8,0.8835
+36,4.c,Os pacotes 15 e 17 não serão entregues com sucesso.,0,0.3,0.8,0.8,0.8,0.9389
+37,4.d,A fração de pacotes perdido é 2/18 = 0.11...,0,0.1,0.4,0.4,0,0.9336
+38,5.a,MD5 tem tamanho de 128 bits. SHA-1 tem tamanho de 160 bits. Ambos independem do tamanho de M.,1,1,1,0.9,0.8,0.9381
+39,5.b,"As funções hash mencionadas aceitam entradas – inputs – de tamanhos arbitrários, de forma que não existe um mínimo de bytes em M para aplicações de tais funções. Desde que exista uma mensagem “M” as funções de hash podem ser aplicadas. O estabelecimento de tamanho mínimo de M (ou qualquer outro parâmetro) é opcional para atingir a configuração e performance desejadas pelo administrador, mas não uma obrigatoriedade para aplicação do hash.",1,1,1,0.9,0.8,0.9206
+40,5.c,"MD5: c82c8346c80c938fd2cc6a8a53033669
+SHA-1: e5c0ca4f6a30d97f925645758a63c1e611cd9ea7",1,1,0.8,1,0.8,0.8697
+41,5.d,"MD5: a48d2299b9f26ff6d7d63f42108f9c01
+SHA-1: 8a4fbf99ee7df1de9ff4bb7d9b27fbc5eae85064",1,1,1,1,0.8,0.8708
+42,5.e,"Para MD5:
+Quando alinhadas, as sequencias acimas apenas um caractere é idêntico
+
+Para SHA-1:
+Quando alinhadas, as sequencias acima apenas dois caracteres são idênticos",1,1,0.2,0.8,0.6,0.9058
+43,5.f,"Como a frase sugere, mudanças pequenas retornam resumos muito diferentes. Por exemplo, utilizando a frase “As funções de hash serão sensíveis a modificações”, apenas 1 caractere é idêntico. Por isso, para encontrar um hash que satisfaça as condições da questão, é necessário um amplo conjunto de tentativas. Para obter isso, eu produzi o código abaixo e estacionei na primeira combinação de caracteres que retornou o resultado pedido na pergunta, de forma que as palavras não compõem uma frase com sentido. Palavras para o teste foram aleatoriamente geradas pelo pacote RandomWordGenerator.
+Minha nova frase é SerXCvuqKv, tem em comum 11 caracteres da original. O equivalente é a808874ec84a43c4d32c6a108663b5a8.
+import hashlib
+from RandomWordGenerator import RandomWord
+def compare(my_hash, new_hash):
+    count = 0
+for x, y in zip(my_hash.hexdigest(), new_hash.hexdigest()): if x == y:
+count += 1
+else:
+pass
+return count
+my_phrase = ""Boas funções de hash são sensíveis a modificações!""
+my_hash = hashlib.md5(my_phrase.encode())
+count = int()
+while count <= 9:
+rw = RandomWord(max_word_size=10) new_phrase = rw.generate()
+new_hash = hashlib.md5(new_phrase.encode())
+count = compare(my_hash, new_hash)
+print(f""Minha nova frase é {new_phrase}, tem em comum {count} caracteres da
+original"")
+print(f"" O equivalente é {new_hash.hexdigest()} "")
+Minha nova frase é SerXCvuqKv, tem em comum 11 caracteres da original
+O equivalente é a808874ec84a43c4d32c6a108663b5a8",1,1,0,0.8,0.8,0.8665
+44,1.a,"O fluxo irá transitar pelos seguintes equipamentos: h5, h6, h7, H3, H4, H5, H6,
+H7, s3, s4, s5, s6, S1, S4",0.9,0.8,0.9,0.8,0.8,0.9003
+45,1.b,"Do lado esquerdo da rede, um dispositivo de cada subrede ligada a S2 pode transmitir ao mesmo tempo (3). Na região sul da rede, Apenas um (1) dos dispositivos que usam H3 como rota para transmitir para S1 pode transmitir. Do lado direito da rede um dispositivo de cada subrede ligada a S4 pode transmitir ao mesmo tempo (3). Portanto após analisarmos cada região da nossa rede concluímos que no máximo 7 dispositivos podem transmitir ao mesmo tempo. Um exemplo desse cenário é: h1, h4, h5, h9, h11, s1, s5",1,1,0.8,0.8,0.8,0.8933
+46,2.a,"O quadro será transmitido pelos enlaces: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",1,0,1,1,0.6,0.9864
+47,2.b,"Sim. Os switches que vão adicionar entradas em suas tabelas são:
+Switch 1 – destino h3 / interface 1 Switch 2 – destino h3 / interface 4 Switch 3 – destino h3 / interface 5 Switch 4 – destino h3 / interface 9",1,1,1,0.8,0.8,0.9527
+48,3.a,"O TTL é um campo de pacotes IP implementado na camada de rede por tanto dispositivos que implementam somente até a camada de enlace não serão capazes de atualizar o campo TTL. Logo um salto só ocorre quando um pacote viaja de um dispositivo da camada de rede até outro dispositivo da camada de rede.
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{h1} & \textbf{S1} & \textbf{R1} & \textbf{R2} & \textbf{S2} & \textbf{h2} \\
+\hline
+O: 54.166.88.177 & O: 54.166.88.177 & O: 54.166.88.177 & O: 54.166.88.177 & O: 54.166.88.177 \\
+D: 74.186.55.179 & D: 74.186.55.179 & D: 74.186.55.179 & D: 74.186.55.179 & D: 74.186.55.179 \\
+TTL: 32 & TTL: 32 & TTL: 31 & TTL: 30 & TTL: 30 \\
+\hline
+\end{tabular}
+",1,0,0,0.5,0.6,0.9005
+49,3.b,"\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{h1} & \textbf{S1} & \textbf{R1} & \textbf{R2} & \textbf{S2} & \textbf{h2} \\
+\hline
+O: e2:d1:b6 & O: e2:d1:b6 & O: 76:f0:46 & O: ca:0d:f1 & O: ca:0d:f1 \\
+D: 2a:8d:78 & D: 2a:8d:78 & D: 7a:de:bf & D: 8e:c1:6d & D: 8e:c1:6d \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.8788
+50,4.a,"PKT1 recepção em t = 2 , escalonado para t = 4 PKT2 recepção em t = 3 , escalonado para t = 5 PKT3 recepção em t = 4 , escalonado para t = 6
+PKT4 recepção em t = 5 , escalonado para t = 7 PKT5 recepção em t = 6,5 , escalonado para t = 8 PKT6 recepção em t = 7 , escalonado para t = 9 PKT7 recepção em t = 9 , escalonado para t = 10 PKT8 recepção em t = 9 , escalonado para t = 11 PKT9 recepção em t = 11,5 , escalonado para t = 12 PKT10 recepção em t = 13 , escalonado para t = 13 PKT11 recepção em t = 13 , escalonado para t = 14 PKT12 recepção em t = 13,5 , escalonado para t = 15 PKT13 recepção em t = 15 , escalonado para t = 16 PKT14 recepção em t = 16,5 , escalonado para t = 17 PKT15 recepção em t = 18,5 , escalonado para t = 18 PKT16 recepção em t = 20 , escalonado para t = 19 PKT17 recepção em t = 20 , escalonado para t = 20 PKT18 recepção em t = 22 , escalonado para t = 21",0.5,0.7,0.5,0.8,0.8,0.9448
+51,4.b,"PKT1 recepção em t = 2 , escalonado para t = 4 PKT2 recepção em t = 3 , escalonado para t = 5 PKT3 recepção em t = 4 , escalonado para t = 6
+PKT4 recepção em t = 5 , escalonado para t = 7 PKT5 recepção em t = 6,5 , escalonado para t = 8 PKT6 recepção em t = 7 , escalonado para t = 9 PKT7 recepção em t = 9 , escalonado para t = 10 PKT8 recepção em t = 9 , escalonado para t = 11 PKT9 recepção em t = 11,5 , escalonado para t = 12 PKT10 recepção em t = 13 , escalonado para t = 13 PKT11 recepção em t = 13 , escalonado para t = 14 PKT12 recepção em t = 13,5 , escalonado para t = 15 PKT13 recepção em t = 15 , escalonado para t = 16 PKT14 recepção em t = 16,5 , escalonado para t = 17 PKT15 recepção em t = 18,5 , escalonado para t = 18 PKT16 recepção em t = 20 , escalonado para t = 19 PKT17 recepção em t = 20 , escalonado para t = 20 PKT18 recepção em t = 22 , escalonado para t = 21",0.5,0.3,0.3,0.8,0.6,0.9448
+52,4.c,"Sim, os pacotes 11, 12, 14, 15, 17 e 18.",0,0.4,0.2,0.6,0.4,0.8979
+53,4.d,"6/18 = 33,3%",0,0,0.4,0.3,0.3,0.8217
+54,1.a,"s5, s6, h8, H7, S4, S1, H3, H6, s4, H5, h7, H4, h5, s3 e h6.",1,0.4,0.6,0.8,0.6,0.8769
+55,1.b,"h1, s1, h4, h5, s5, h9 e h11.",1,1,0.8,0.8,0.6,0.8402
+56,2.a,"O quadro será transmitido pelos 12 enlaces:
+(1), (2), (3), (4), (5), (6), (7), (8), (9), (10), (11) e (12).",1,0,1,0.8,0.2,0.9815
+57,2.b,"Entradas criadas: Tabela do switch S1:
+Destino Interface
+h3 1
+Tabela do switch S2:
+Destino Interface
+h3 4
+Tabela do switch S3:
+Destino Interface
+h3 5
+                                        
+Tabela do switch S4:
+Destino Interface
+h3 9",1,1,1,0.8,0.7,0.9395
+58,3.a,"\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+& \textbf{Enlace (1)} & \textbf{Enlace (2)} & \textbf{Enlace (3)} & \textbf{Enlace (4)} & \textbf{Enlace (5)} \\
+\hline
+D: & 217.143.104.91 & 217.143.104.91 & 217.143.104.91 & 217.143.104.91 & 217.143.104.91 \\
+O: & 81.53.223.8 & 81.53.223.8 & 81.53.223.8 & 81.53.223.8 & 81.53.223.8 \\
+TTL: & 32 & 32 & 31 & 30 & 30 \\
+\hline
+\end{tabular}
+",1,0,1,0.8,0.8,0.8793
+59,3.b,"\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+& \textbf{Enlace (1)} & \textbf{Enlace (2)} & \textbf{Enlace (3)} & \textbf{Enlace (4)} & \textbf{Enlace (5)} \\
+\hline
+D: & e2:d1:b6... & e2:d1:b6... & 76:f0:46... & ca:0d:f1... & ca:0d:f1... \\
+O: & 2a:8d:78... & 2a:8d:78... & 7a:de:bf... & 8e:c1:6d... & 8e:c1:6d... \\
+\hline
+\end{tabular}
+",1,0.3,1,0.8,0.7,0.8522
+60,4.a,"\begin{tabular}{|l|c|}
+\hline
+\rowcolor{blue!30} \textbf{Pacotes} & \textbf{Recepção [s]} \\
+\hline
+PKT1 & 2,0 \\
+PKT2 & 3,0 \\
+PKT3 & 4,0 \\
+PKT4 & 5,5 \\
+PKT5 & 6,0 \\
+PKT6 & 8,0 \\
+PKT7 & 8,0 \\
+PKT8 & 9,5 \\
+PKT9 & 11,5 \\
+PKT10 & 13,0 \\
+PKT11 & 13,0 \\
+PKT12 & 13,5 \\
+PKT13 & 15,0 \\
+PKT14 & 16,5 \\
+PKT15 & 18,5 \\
+PKT16 & 20,5 \\
+PKT17 & 20,5 \\
+PKT18 & 22,5 \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.8741
+61,4.b,"\begin{tabular}{|l|c|}
+\hline
+\rowcolor{blue!30} \textbf{Pacotes} & \textbf{Recepção [s]} \\
+\hline
+PKT1 & 2,0 \\
+PKT2 & 5,0 \\
+PKT3 & 6,0 \\
+PKT4 & 7,0 \\
+PKT5 & 8,0 \\
+PKT6 & 9,0 \\
+PKT7 & 10,0 \\
+PKT8 & 11,0 \\
+PKT9 & 12,0 \\
+PKT10 & 13,0 \\
+PKT11 & 14,0 \\
+PKT12 & 15,0 \\
+PKT13 & 16,0 \\
+PKT14 & 17,0 \\
+PKT15 & 18,0 \\
+PKT16 & 19,0 \\
+PKT17 & 20,0 \\
+PKT18 & 21,0 \\
+\hline
+\end{tabular}
+",0.8,0,0.2,0.8,0.8,0.8734
+62,4.c,"PKT15, PKT16, PKT17 e PKT18.",1,1,1,0.8,0.8,0.8533
+63,4.d,"Quantidade de pacotes perdidos: 4 Quantidade de pacotes transmitidos: 14
+Logo: 𝟒/18 = 𝟎, 𝟐𝟐𝟐𝟐 ⟹ 𝟐𝟐, 𝟐. % de pacotes perdidos.",1,0.7,0.2,0.8,0.6,0.9458
+64,5.a,"SHA­1 : tamanho do resumo 160 bits
+MD5: tamanho do resumo 128 bits.
+Não dependem do tamanho da mensagem.",1,1,1,0.9,0.8,0.9450
+65,5.b,1 byte.,1,0.1,0,0.2,0.3,0.7353
+66,5.c,"SHA1: 5cb1c6e9fff86de89e3a5addd27c3e95adf47b88
+MD5: 7289b2d941fd1ce079a7c213b0ac879b",0,0,0.2,0.8,0.6,0.8528
+67,5.d,"SHA1: e8e1d4352d889f3fd621ad0fe7dd340a3a2ed2fb
+MD5: 8968f2e256da927287ae939c675d9ace",0,0,0.2,0.8,0.6,0.8610
+68,5.e,"Mensagem 1:
+SHA1: 5cb1c6e9ff86de89e3a5add27c3e95adf47b88
+MD5: 7289b2d941fd1ce079a7c2130ac879b
+Número de caracteres idênticos: 5
+
+Mensagem 2:
+SHA1: e8e1d4352d889f3fd621ad0fe7dd340a3a2ed2fb
+MD5: 8968f2e256da927287a939c675d9ace
+Número de caracteres idênticos: 3",0,0,0.2,0.8,0.6,0.9056
+69,5.f,"resumo do item c:
+7289b2d941fd1ce079a7c213b0ac879b
+resumo de M’:
+c1e884dd2cf1ebb120544002593ba34a",0,0,0.2,0.8,0.8,0.8050
+70,1.a,"Será transitado pelos S1, S4, H7, s5, s6, h8, H3, H4,h5, s3, h6.",0,0.4,0.5,0.8,0.6,0.9098
+71,1.b,"No máximo pode haver 9 transmissões para Internet sem que tenha colisões. O máximo é atingido com transmissões como h1, h4, h5, h7, h8, h9, h11, s1, s4.",0,0.3,0.4,0.4,0.6,0.9787
+72,2.a,"O quadro será transmitidos pelos enlaces 1, 4, 5 e 7.",0,1,0.2,0.4,0.4,0.9701
+73,2.b,O switch S2 - destino h8 / interface 1 irá adicionar em sua tabela de encaminhamento.,0,0,0.4,0.4,0.4,0.9407
+74,3.a,"O: 217.143.104.91 D: 81.53.223.8 TTL:32
+O: 217.143.104.91 D: 81.53.223.8 TTL:32
+O: 217.143.104.91 D: 81.53.223.8 TTL:31
+O: 217.143.104.91 D: 81.53.223.8 TTL:30
+O: 217.143.104.91 D: 81.53.223.8 TTL:30",1,1,1,0.8,0.4,0.9068
+75,3.b,"O: e2:d1:b6:... D: 2a:8d:78:...
+O: e2:d1:b6:... D: 2a:8d:78:...
+O: 76:f0:46:... D: 7a:de:bf:...
+O: ca:0d:f1:... D: 8e:c1:6d:...
+O: ca:0d:f1:... D: 8e:c1:6d:...",1,1,1,0.8,0.6,0.8811
+76,4.a,"PKT1 Recepção em t= 2.0s, reprodução escalonada para t= 3.0s PKT2 Recepção em t= 3.0s, reprodução escalonada para t= 4.0s PKT3 Recepção em t= 4.0s, reprodução escalonada para t= 5.0s PKT4 Recepção em t= 5.5s, reprodução escalonada para t= 6.0s PKT5 Recepção em t= 6.0s, reprodução escalonada para t= 7.0s PKT6 Recepção em t= 8.0s, reprodução escalonada para t= 8.0s PKT7 Recepção em t= 8.0s, reprodução escalonada para t= 9.0s PKT8 Recepção em t= 9.5s, reprodução escalonada para t= 10.0s PKT9 Recepção em t= 11.5 s, reprodução escalonada para t= 11s PKT10 Recepção em t=13s, reprodução escalonada para t= 12s PKT11 Recepção em t=13 s, reprodução escalonada para t= 13s PKT12 Recepção em t= 13.5 s, reprodução escalonada para t= 14s PKT13 Recepção em t= 15s, reprodução escalonada para t= 15s PKT14 Recepção em t= 16.5s, reprodução escalonada para t= 16s PKT15 Recepção em t= 18.5s, reprodução escalonada para t= 17s PKT16 Recepção em t= 20.5s, reprodução escalonada para t= 18s PKT17 Recepção em t= 20.5s, reprodução escalonada para t= 19s PKT18 Recepção em t= 22.5s, reprodução escalonada para t= 20s",0.5,0,0.5,0.6,0.6,0.9895
+77,4.b,"PKT1 Recepção em t= 2.0s, reprodução escalonada para t= 3.0s PKT2 Recepção em t= 3.0s, reprodução escalonada para t= 4.0s PKT3 Recepção em t= 4.0s, reprodução escalonada para t= 5.0s PKT4 Recepção em t= 5.5s, reprodução escalonada para t= 6.0s PKT5 Recepção em t= 6.0s, reprodução escalonada para t= 7.0s PKT6 Recepção em t= 8.0s, reprodução escalonada para t= 8.0s PKT7 Recepção em t= 8.0s, reprodução escalonada para t= 9.0s PKT8 Recepção em t= 9.5s, reprodução escalonada para t= 10.0s PKT9 Recepção em t= 11.5 s, reprodução escalonada para t= 11s PKT10 Recepção em t=13s, reprodução escalonada para t= 12s PKT11 Recepção em t=13 s, reprodução escalonada para t= 13s PKT12 Recepção em t= 13.5 s, reprodução escalonada para t= 14s PKT13 Recepção em t= 15s, reprodução escalonada para t= 15s PKT14 Recepção em t= 16.5s, reprodução escalonada para t= 16s PKT15 Recepção em t= 18.5s, reprodução escalonada para t= 17s PKT16 Recepção em t= 20.5s, reprodução escalonada para t= 18s PKT17 Recepção em t= 20.5s, reprodução escalonada para t= 19s PKT18 Recepção em t= 22.5s, reprodução escalonada para t= 20s",0.5,0,0.5,0.4,0.6,0.9895
+78,4.c,"Sim os pacotes 9, 10, 14, 15, 16, 17 e 18",0,0.3,0.2,0.6,0.4,0.8867
+79,4.d,"A fração de pacotes perdidos é: 7/18 = 38,9%",0,0,0.4,0.3,0.9,0.9399
+80,5.a,MD5 possui o tamanho de 128 bits e SHA1 possui o tamanho de 160 bits. Não pois é feito a verificação de integridade.,1,0.9,0.3,0.8,0.4,0.9222
+81,1.a,S6; H7; S4; S1; H3; H4; h5,0,0.6,0.5,0.8,0.8,0.8288
+82,1.b,"O máximo seria apenas 1, pois o que está fazendo a ponte das subredes com o Gateway é apenas um Switch (S1) que não faz gerenciamento de colisão. Se fosse um hub, no lugar do S1, isso seria diferente.
+Ex: h1; H1; S2; S1; Gateway.",0,0,0.2,0.2,0.4,0.8544
+83,2.a,"Pelos enlaces (4), (1), (5), (7)",0,1,0.2,0.4,0.4,0.8152
+84,2.b,"Sim, será adicionada entrada nas tabelas.
+Tabela S3: h3, 5 Tabela S1: h3, 1 Tabela S2, h3, 4",0.8,0.8,0.2,0.8,0.6,0.8640
+85,4.a,"PKT1; 1s PKT2; 2s PKT3; 3s PKT4; 4s PKT5; 5s PKT6; 6s PKT7; 7s PKT8; 8s PKT9; 9s
+PKT10; 10s PKT11; 11s
+PKT12; 12s PKT13; 13s PKT14; 14s PKT15; 15s PKT16; 16s PKT17; 17s PKT18; 18s",0,0,0,0.4,0.6,0.8275
+86,4.b,"PKT1; 2s PKT2; 3s PKT3; 4s
+PKT4; 5,5s PKT5; 6s PKT6; 8s PKT7; 8s PKT8; 9,5s PKT9; 11,5s PKT10; 13s PKT11; 13s PKT12; 13,5s PKT13; 15s PKT14; 16,5s PKT15; 18,5s PKT16; 20,5s PKT17; 20,5s PKT18; 22,5s",0,1,0.2,0.6,0.6,0.8413
+87,4.c,"Pacotes 15, 16, 17 e 18 serão perdidos.",1,1,1,0.8,0.8,0.9131
+88,4.d,"Total de pacotes – 18, total de perdidos 4, logo, fração de pacotes perdidos: 4/18 = 0,22,
+ou 22% de perda de pacote.",1,0.9,0.9,0.8,0.8,0.9608
+89,5.a,"O tamanho do resumo gerado pelo padrão MD5 é de 128 bits e independe da mensagem utilizada. Já o modelo SHA1, tem por padrão 160 bits e também independe da mensagem utilizada.",1,1,1,0.9,0.8,0.9589
+90,5.b,Ele deve ter no mínimo 1 bit para que as funções hash possam ser aplicáveis.,1,0.4,0,0.2,0.4,0.8410
+91,5.c,"MD5: 533d997908a9c5603d0ee9d660a6112a
+SHA1: 755edc8821c60e3fc8f6466f55ec15ade2e17889",0,0,0.2,0.8,0.6,0.8667
+92,5.d,"MD5: 8306b1020b302a7c5ef3f5dcdeca99ce
+SHA1: 84ebb380bdf66ef518076cf69a7636fbbeef505b",0,0,0.2,0.8,0.6,0.8498
+93,5.e,"MD5: 533d997908a9c5603d0ee9d660a6112a MD5: 8306b1020b302a7c5ef3f5dcdeca99ce Apenas 3 caracteres iguais.
+SHA1: 755edc8821c60e3fc8f6466f55ec15ade2e17889 SHA1: 84ebb380bdf66ef518076cf69a7636fbbeef505b Apenas 7 caracteres iguais.",0,0,0.2,0.4,0.4,0.9063
+94,1.a,"Transmissão de s6 -> h5:
+S6 -> h7 -> S4 -> S1 -> H3 -> H4 -> h5",0,0.2,0.8,0.8,0.8,0.9183
+95,1.b,"Poderão ocorrer no máximo 9 conexões sem que haja colisões, limitadas a 1 por hub e várias por switch.
+Um cenário possível é o seguinte: h1, s1, h4, h5, h7, s4, s5, h9, h11.",0,0.4,0.4,0.4,0.6,0.9111
+96,2.a,"Esse quadro será transmitido pelos enlaces: 1, 4, 5 e 7",0,0.8,0,0.4,0.4,0.9590
+97,2.b,"Switch 2: Destino h5, interface 1. Switch 1: Destino h5, interface 5. Switch 3: Destino h5, interface 7.",0,0.2,0.2,0.5,0.6,0.8953
+98,3.a,"(1) Origem: 217.143.104.91, Destino: 81.53.223.8, TTL: 32 (2) Origem: 217.143.104.91, Destino: 81.53.223.8, TTL: 32 (3) Origem: 217.143.104.91, Destino: 81.53.223.8, TTL: 31 (4) Origem: 217.143.104.91, Destino: 81.53.223.8, TTL: 30 (5) Origem: 217.143.104.91, Destino: 81.53.223.8, TTL: 30",1,1,1,0.8,0.6,0.9465
+99,3.b,"(1) Origem: e2:d1:b6:..., Destino: 2a:8d:78:... (2) Origem: e2:d1:b6:..., Destino: 2a:8d:78:...
+ 
+(3) Origem: 76:f0:46:..., Destino: 7a:de:bf:.... (4) Origem: ca:0d:f1:..., Destino: 8e:c1:6d:... (5) Origem: ca:0d:f1:..., Destino: 8e:c1:6d:...",1,1,1,0.8,0.6,0.9361
+100,4.a,"PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 3.0 s PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 4.0 s PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 5.0 s PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 6.0 s PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 7.0 s PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 8.0 s PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 10.0 s PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 11.0 s PKT10 Recepção em t = 13.0 s, reprodução escalonada para t = 12.0 s PKT11 Recepção em t = 13.0 s, reprodução escalonada para t = 13.0 s PKT12 Recepção em t = 13.5 s, reprodução escalonada para t = 14.0 s PKT13 Recepção em t = 15.0 s, reprodução escalonada para t = 15.0 s PKT14 Recepção em t = 16.5 s, reprodução escalonada para t = 16.0 s PKT15 Recepção em t = 18.5 s, reprodução escalonada para t = 17.0 s PKT16 Recepção em t = 20.5 s, reprodução escalonada para t = 18.0 s PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 19.0 s PKT18 Recepção em t = 22.5 s, reprodução escalonada para t = 20.0 s",0.5,0,0.5,0.4,0.6,0.9929
+101,4.b,"PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 3.0 s PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 4.0 s PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 5.0 s PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 6.0 s PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 7.0 s PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 8.0 s PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 10.0 s PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 11.0 s PKT10 Recepção em t = 13.0 s, reprodução escalonada para t = 12.0 s PKT11 Recepção em t = 13.0 s, reprodução escalonada para t = 13.0 s PKT12 Recepção em t = 13.5 s, reprodução escalonada para t = 14.0 s PKT13 Recepção em t = 15.0 s, reprodução escalonada para t = 15.0 s PKT14 Recepção em t = 16.5 s, reprodução escalonada para t = 16.0 s PKT15 Recepção em t = 18.5 s, reprodução escalonada para t = 17.0 s PKT16 Recepção em t = 20.5 s, reprodução escalonada para t = 18.0 s PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 19.0 s PKT18 Recepção em t = 22.5 s, reprodução escalonada para t = 20.0 s",0.5,0,0.5,0.4,0.6,0.9929
+102,4.c,"haverá erro nos pacotes: 9, 10, 14, 15, 16, 17, 18.",0,0.2,0.4,0.4,0.4,0.8986
+103,4.d,A fração será calculada dividindo o número de pacotes perdidos pelo total de pacotes: 7/18 = 38.8%,0,0,0.2,0.3,0.8,0.9482
+104,5.a,"MD5: Gera um valor hash 128 bits expresso em 32 caracteres, independente da mensagem M.
+SHA1: Gera um valor hash de 160 bits expresso em 40 dígitos, independente da mensagem M.",1,1,0.8,0.8,0.8,0.9238
+105,5.b,"MD5: pode ser gerado a partir de qualquer tamanho, mesmo de uma string vazia. SHA1: O mesmo se aplica, sem restringir a um tamanho mínimo.",1,1,1,0.8,0.6,0.9040
+106,5.c,"Texto de entrada: ​Boas funções de hash são sensíveis a modificações! MD5: c82c8346c80c938fd2cc6a8a53033669
+SHA1: e5c0ca4f6a30d97f925645758a63c1e611cd9ea7",1,1,1,0.9,0.8,0.8885
+107,5.d,"Texto de entrada: ​Boas funções de hash são sensíveis a modificações. MD5: a48d2299b9f26ff6d7d63f42108f9c01
+SHA1: 8a4fbf99ee7df1de9ff4bb7d9b27fbc5eae85064",1,1,1,0.9,0.8,0.9077
+108,5.e,"1. MD5: c82c8346c80c938f​d​2cc6a8a53033669
+2. MD5: a48d2299b9f26ff6​d​7d63f42108f9c01
+a. Apenas o caracter d, que se encontra na posição 17 não foi alterado
+3. SHA1: e5c0ca4f6a30d97f​9​25645758a63c1e611cd9ea7
+4. SHA1: 8a4fbf99ee7df1de​9​ff4bb7d9b27fbc5eae85064
+a. Nenhum caracter se manteve igual.",0.5,0.5,0.2,0.4,0.8,0.9119
+109,5.f,"Foi encontrada a mensagem ""​AP 2 de Redes"" que possui 2 caracteres em comum com a mensagem.
+MD5: 224a181474e0fed1​d​c​c​ff3aeda6475ab",1,0.4,0.3,0.4,0.6,0.8712
+110,1.a,"h5, s3, h6, H4, H3, S1, S4, H7, s5, s6, h8",0,0.6,0.6,0.8,0.8,0.8398
+111,1.b,"h1, s1, h4, h5, h7, s4, s5, h9, h11",0,0.4,0.6,0.8,0.4,0.8080
+112,2.a,"O quadro será transmitido pelos enlaces 1, 4, 5, 7.",0,0.8,0.4,0.4,0.4,0.9707
+113,2.b,"Os seguintes switches irão adicionar entradas em sua tabela de encaminhamento:
+Switch S1 — destino h3 / interface 1 Switch S2 — destino h3 / interface 4 Switch S3 – destino h3 / interface 5 Switch S4 – destino h3 / interface 9",1,1,1,0.8,0.8,0.9966
+114,3.a,"\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{O:} 217.143.104.91 & \textbf{O:} 217.143.104.91 & \textbf{O:} 217.143.104.91 & \textbf{O:} 217.143.104.91 & \textbf{O:} 217.143.104.91 \\
+\textbf{D:} 81.53.223.8 & \textbf{D:} 81.53.223.8 & \textbf{D:} 81.53.223.8 & \textbf{D:} 81.53.223.8 & \textbf{D:} 81.53.223.8 \\
+\textbf{TTL:} 32 & \textbf{TTL:} 32 & \textbf{TTL:} 31 & \textbf{TTL:} 30 & \textbf{TTL:} 30 \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.6,0.8806
+115,3.b,"\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{O:} e2:d1:b6... & \textbf{O:} e2:d1:b6... & \textbf{O:} 76:f0:46... & \textbf{O:} ca:0d:f1... \\
+\textbf{D:} 2a:8d:78... & \textbf{D:} 2a:8d:78... & \textbf{D:} 7a:de:bf... & \textbf{D:} 8e:c1:6d... \\
+\hline
+\end{tabular}
+",1,0.8,1,0.8,0.6,0.8527
+116,4.a,"PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 4.0 s
+PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 5.0 s
+PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 6.0 s
+PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 7.0 s
+PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 8.0 s
+PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s
+PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 10.0 s
+PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 11.0 s
+PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 12.0 s
+PKT10 Recepçãoemt=13.0s,reproduçãoescalonadaparat=13.0s
+PKT11 Recepçãoemt=13.0s,reproduçãoescalonadaparat=14.0s
+PKT12 Recepçãoemt=13.5s,reproduçãoescalonadaparat=15.0s
+PKT13 Recepçãoemt=15.0s,reproduçãoescalonadaparat=16.0s
+PKT14 Recepçãoemt=16.5s,reproduçãoescalonadaparat=17.0s
+PKT15 Recepçãoemt=18.5s,reproduçãoescalonadaparat=18.0s
+PKT16 Recepçãoemt=20.5s,reproduçãoescalonadaparat=19.0s
+PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 20.0 s
+PKT18 Recepçãoemt=22.5s,reproduçãoescalonadaparat=21.0s",1,1,0.9,0.8,0.8,0.9923
+117,4.b,"PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 4.0 s
+PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 5.0 s
+PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 6.0 s
+PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 7.0 s
+PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 8.0 s
+PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s
+PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 10.0 s
+PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 11.0 s
+PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 12.0 s
+PKT10 Recepçãoemt=13.0s,reproduçãoescalonadaparat=13.0s
+PKT11 Recepçãoemt=13.0s,reproduçãoescalonadaparat=14.0s
+PKT12 Recepçãoemt=13.5s,reproduçãoescalonadaparat=15.0s
+PKT13 Recepçãoemt=15.0s,reproduçãoescalonadaparat=16.0s
+PKT14 Recepçãoemt=16.5s,reproduçãoescalonadaparat=17.0s
+PKT15 Recepçãoemt=18.5s,reproduçãoescalonadaparat=18.0s
+PKT16 Recepçãoemt=20.5s,reproduçãoescalonadaparat=19.0s
+PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 20.0 s
+PKT18 Recepçãoemt=22.5s,reproduçãoescalonadaparat=21.0s",1,1,0.9,0.8,0.8,0.9923
+118,4.c,"Sim, os pacotes 15, 16, 17, e 18 não serão reproduzidos com sucesso",1,1,1,0.8,0.8,0.9808
+119,4.d,"A fração dos pacotes perdidos é dada por 4/18 = 22,2%",1,1,1,0.8,0.8,0.9629
+120,5.a,O MD5 – 128 bits e o SHA1 – 160 bits. Não.,1,1,0.8,0.8,0.8,0.8941
+121,5.b,"As funções MD5 e SHA1 não determinam o tamanho mínimo. Logo, M pode ter qualquer tamanho.",1,1,1,1,0.8,0.9847
+122,5.c,"O resumo MD5 desta frase é “c82c8346c80c938fd2cc6a8a53033669”, e o seu resumo SHA1 é “e5c0ca4f6a30d97f925645758a63c1e611cd9ea7”.",1,1,1,1,1,1.0000
+123,5.d,"O resumo MD5 desta frase com ponto final é “a48d2299b9f26ff6d7d63f42108f9c01”, e utilizando o SHA1 é “8a4fbf99ee7df1de9ff4bb7d9b27fbc5eae85064”",1,0.9,0.9,0.9,0.8,0.9628
+124,5.e,"Comparando os resumos MD5 entre as duas frases, conferimos que somente o 17º dos 32 caracteres gerados pelo resumo é igual. Já comparando os resumos SHA1 entre as duas frases, conferimos que o 17º e o 23º caractere são idênticos.",1,0.8,0.8,0.8,0.6,0.9791
+125,5.f,A mensagem “Em busca do meu futuro” cujo hash MD5 é “e8e59c0ff5028cd6c5d09913d526033c” possui 2 caracteres iguais,1,0.7,0.5,0.4,0.6,0.9097
+126,1.a,"s6, H7, s5, h8, S4, S1, H3, H4, h5, s3, h6, H5, h7, H6, s4",1,0.6,0.6,0.8,0.8,0.8342
+127,1.b,"No máximo 7 servidores e estações poderão transmitir ao mesmo tempo. Uma situação dessas poderia ser quando os nós h1, s1, h4, h5, s5, h9 e h11 transmitem ao mesmo tempo.",1,1,0.8,0.8,0.8,0.9456
+128,2.a,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",1,0,1,0.8,0.4,0.8423
+129,2.b,"\begin{tabular}{|c|c|c|}
+\hline
+\rowcolor{blue!50} \textbf{Tabela do switch} & \textbf{Destino} & \textbf{Interface} \\
+\hline
+S1 & h3 & 1 \\
+S2 & h3 & 4 \\
+S3 & h3 & 5 \\
+S4 & h3 & 9 \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.6,0.9150
+130,3.a,"\begin{tabular}{|c|c|c|c|}
+\hline
+\rowcolor{blue!40} \textbf{Enlace} & \textbf{TLL} & \textbf{Origem} & \textbf{Destino} \\
+\hline
+h1 – S1 & 32 & 217.143.104.91 & 81.53.223.8 \\
+S1 – R1 & 32 & 217.143.104.91 & 81.53.223.8 \\
+R1 – R2 & 31 & 217.143.104.91 & 81.53.223.8 \\
+R2 – S2 & 30 & 217.143.104.91 & 81.53.223.8 \\
+S2 – h2 & 30 & 217.143.104.91 & 81.53.223.8 \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.9095
+131,3.b,"\begin{tabular}{|c|c|c|}
+\hline
+\rowcolor{blue!40} \textbf{Enlace} & \textbf{Origem} & \textbf{Destino} \\
+\hline
+h1 $\rightarrow$ S1 & e2:d1:b6... & 2a:8d:78... \\
+S1 $\rightarrow$ R1 & e2:d1:b6... & 2a:8d:78... \\
+R1 $\rightarrow$ R2 & 76:f0:46... & 7a:de:bf... \\
+R2 $\rightarrow$ S2 & ca:0d:f1... & 8e:c1:6d... \\
+S2 $\rightarrow$ h2 & ca:0d:f1... & 8e:c1:6d... \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.9048
+132,4.a,"\begin{tabular}{|c|c|c|}
+\hline
+\rowcolor{blue!40} \textbf{Pacote} & \textbf{Instante de recepção} & \textbf{Escalonado para} \\
+\hline
+PKT1 & \( t = 2s \) & \( t = 4s \) \\
+PKT2 & \( t = 3s \) & \( t = 5s \) \\
+PKT3 & \( t = 4s \) & \( t = 6s \) \\
+PKT4 & \( t = 5,5s \) & \( t = 7s \) \\
+PKT5 & \( t = 6s \) & \( t = 8s \) \\
+PKT6 & \( t = 8s \) & \( t = 9s \) \\
+PKT7 & \( t = 8s \) & \( t = 10s \) \\
+PKT8 & \( t = 9,5s \) & \( t = 11s \) \\
+PKT9 & \( t = 11,5s \) & \( t = 12s \) \\
+PKT10 & \( t = 13s \) & \( t = 13s \) \\
+PKT11 & \( t = 13s \) & \( t = 14s \) \\
+PKT12 & \( t = 13,5s \) & \( t = 15s \) \\
+PKT13 & \( t = 15s \) & \( t = 16s \) \\
+PKT14 & \( t = 16,5s \) & \( t = 17s \) \\
+PKT15 & \( t = 18,5s \) & \( t = 18s \) \\
+PKT16 & \( t = 20,5s \) & \( t = 19s \) \\
+PKT17 & \( t = 20,5s \) & \( t = 20s \) \\
+PKT18 & \( t = 22,5s \) & \( t = 21s \) \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.9204
+133,4.b,"\begin{tabular}{|c|c|c|}
+\hline
+\rowcolor{blue!40} \textbf{Pacote} & \textbf{Instante de recepção} & \textbf{Escalonado para} \\
+\hline
+PKT1 & \( t = 2s \) & \( t = 4s \) \\
+PKT2 & \( t = 3s \) & \( t = 5s \) \\
+PKT3 & \( t = 4s \) & \( t = 6s \) \\
+PKT4 & \( t = 5,5s \) & \( t = 7s \) \\
+PKT5 & \( t = 6s \) & \( t = 8s \) \\
+PKT6 & \( t = 8s \) & \( t = 9s \) \\
+PKT7 & \( t = 8s \) & \( t = 10s \) \\
+PKT8 & \( t = 9,5s \) & \( t = 11s \) \\
+PKT9 & \( t = 11,5s \) & \( t = 12s \) \\
+PKT10 & \( t = 13s \) & \( t = 13s \) \\
+PKT11 & \( t = 13s \) & \( t = 14s \) \\
+PKT12 & \( t = 13,5s \) & \( t = 15s \) \\
+PKT13 & \( t = 15s \) & \( t = 16s \) \\
+PKT14 & \( t = 16,5s \) & \( t = 17s \) \\
+PKT15 & \( t = 18,5s \) & \( t = 18s \) \\
+PKT16 & \( t = 20,5s \) & \( t = 19s \) \\
+PKT17 & \( t = 20,5s \) & \( t = 20s \) \\
+PKT18 & \( t = 22,5s \) & \( t = 21s \) \\
+\hline
+\end{tabular}
+",1,1,1,0.8,0.8,0.9204
+134,4.c,"Sim. Os pacotes 15, 16, 17 e 18 serão perdidos.",1,1,1,0.8,0.8,0.9280
+135,4.d,4/18 pacotes foram perdidos (22%).,1,0.9,0.8,0.8,0.8,0.9187
+136,5.a,"O tamanho do resumo gerado pelos padrões MD5 e SHA1 é de respectivamente, 128 e 160 bits.",1,0.9,1,0.8,0.8,0.9465
+137,5.b,Não há tamanho mínimo para nenhuma das duas funções serem utilizadas.,1,1,1,0.8,0.8,0.8503
+138,5.c,"MD5: c82c8346c80c938fd2cc6a8a53033669
+SHA1: e5c0ca4f6a30d97f925645758a63c1e611cd9ea7",1,1,1,1,0.8,0.8712
+139,5.d,"MD5: a48d2299b9f26ff6d7d63f42108f9c01
+SHA1: 8a4fbf99ee7df1de9ff4bb7d9b27fbc5eae85064",1,1,1,1,0.8,0.8686
+140,5.e,Somente um caracter no MD5 e dois caracteres no SHA1 são idênticos.,1,0.1,0.8,0.6,0.4,0.8903
+141,5.f,"A mensagem é simplesmente a letra “a”, e possui 4 bytes iguais. MD5: 0cc175b9c0f1b6a831c399e269772661",1,0.9,0.2,0.8,0.4,0.8874

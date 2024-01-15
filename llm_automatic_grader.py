@@ -77,7 +77,8 @@ student_answers_df = pd.read_csv('Syn data alg progr - answers.csv')
 questions_df = pd.read_csv('Syn data alg progr - questions.csv')
 
 pivot_df = pd.merge(questions_df, student_answers_df, on='Question Number')
-pivot_df = pivot_df[['Question Number', 'Question', 'Correct Answer', 'Synthetic Answer']]
+pivot_df = pivot_df[['Index', 'Question Number', 'Question', 'Correct Answer', 'Answer']]
+pivot_df = pivot_df.sort_values(by=['Index'])
 
 instruction_prompt_initial = """
 Você é um assistente de professor. Você corrigirá questões respondidas por alunos, contrastando as respostas deles com o gabarito da questão.
@@ -107,7 +108,7 @@ for index, row in tqdm(pivot_df.iterrows(), total=pivot_df.shape[0], desc="Proce
     question_number = row['Question Number']
     question = row['Question']
     correct_answer = row['Correct Answer']
-    student_answer = row['Synthetic Answer']
+    student_answer = row['Answer']
 
     response = model_inference_function(instruction_prompt_initial, instruction_prompt_final, question, correct_answer, student_answer, model_id)
     print(response)

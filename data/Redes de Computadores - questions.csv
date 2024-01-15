@@ -1,0 +1,450 @@
+Question Number,Question,Correct Answer
+1.a,"Considere a seguinte rede local, formada por estações (indicadas pela letra h), servidores (s), hubs (H) e switches (S), cuja saída para a Internet se dá através de um único gateway.
+
+Há uma imagem, com a seguinte estrutura:
+O gateway está conectado ao switch S1.
+O switch S1 está conectado aos switches S2 e S4.
+O switch S2 está conectado aos hubs H1 e H2 e ao switch S3.
+O hub H1 está conectado às estações h1, h2 e h3.
+O hub H2 está conectado aos servidores s1 e s2.
+O switch S3 está conectado à estação h4.
+O hub H3 está conectado aos hubs H4, H5 e H6.
+O hub H4 está conectado às estações h5 e h6 e ao servidor s3.
+O switch S4 está conectado aos hubs H7, H8 e H9.
+O hub H7 está conectado aos servidores s5 e s6 e à estação h8.
+O hub H8 está conectado às estações h9 e h10.
+O hub H9 está conectado às estações h11 e h12.
+O hub H5 está conectado à estação h7.
+O hub H6 está conectado ao servidor s4.
+
+Suponha que ocorre a transmissão de um fluxo de quadros de s6 para h5. Por quais equipamentos (estações, servidores, hubs e switches) esse fluxo irá transitar?","A transmissão será vista por h5, h6, h7, h8, H3, H4, H5, H6, H7, s3, s4, s5, s6, S1 e S4."
+1.b,"Considere a seguinte rede local, formada por estações (indicadas pela letra h), servidores (s), hubs (H) e switches (S), cuja saída para a Internet se dá através de um único gateway.
+
+Há uma imagem, com a seguinte estrutura:
+O gateway está conectado ao switch S1.
+O switch S1 está conectado aos switches S2 e S4.
+O switch S2 está conectado aos hubs H1 e H2 e ao switch S3.
+O hub H1 está conectado às estações h1, h2 e h3.
+O hub H2 está conectado aos servidores s1 e s2.
+O switch S3 está conectado à estação h4.
+O hub H3 está conectado aos hubs H4, H5 e H6.
+O hub H4 está conectado às estações h5 e h6 e ao servidor s3.
+O switch S4 está conectado aos hubs H7, H8 e H9.
+O hub H7 está conectado aos servidores s5 e s6 e à estação h8.
+O hub H8 está conectado às estações h9 e h10.
+O hub H9 está conectado às estações h11 e h12.
+O hub H5 está conectado à estação h7.
+O hub H6 está conectado ao servidor s4.
+
+Considere que todos os servidores e estações possuem dados a transmitir para a Internet. Qual o número máximo destes equipamentos que podem realizar essa transmissão simultaneamente, sem que ocorram colisões? Descreva um cenário em que este máximo é atingido.","Pode haver no máximo 7 transmissões simultâneas para a Internet, sem que haja colisão. Este máximo é atingido, por exemplo, com transmissões de h1, h4, h5, h9, h11, s1 e s5."
+2.a,"Considere a rede local de uma empresa, estruturada conforme a seguinte topologia:
+
+Há um switch central S1 ao qual estão conectados os switches S2, S3 e S4.
+Do switch S2 partem conexões para as estações de trabalho h1, h2 e h3.
+O switch S2 está conectado ao switch S1 por meio do caminho (1).
+A estação de trabalho h1 está conectada ao switch S2 através do caminho (2).
+A estação de trabalho h2 está conectada ao switch S2 através do caminho (3).
+A estação de trabalho h3 está conectada ao switch S2 através do caminho (4).
+O switch S4 está conectado ao switch S1 através do caminho (9).
+As estações de trabalho h7, h8 e h9 estão conectadas ao switch S4 através dos caminhos (10), (11) e (12) respectivamente.
+O switch S3 está conectado ao switch S1 por meio do caminho (5)
+A estação de trabalho h4 está conectada ao switch S3 através do caminho (6).
+A estação de trabalho h5 está conectada ao switch S3 através do caminho (7).
+A estação de trabalho h6 está conectada ao switch S3 através do caminho (8).
+
+Os números entre parênteses são os identificadores de cada enlace. Considere que, em um dado momento, as tabelas de encaminhamento dos switches sejam as seguintes:
+
+Tabela de S1:
+\[
+\begin{array}{cc}
+\hline
+\textbf{Destino} & \textbf{Interface} \\
+\hline
+h6 & 5 \\
+h7 & 9 \\
+\hline
+\end{array}
+\]
+
+Tabela de S2:
+\[
+\begin{array}{cc}
+\hline
+\textbf{Destino} & \textbf{Interface} \\
+\hline
+h6 & 1 \\
+h7 & 1 \\
+\hline
+\end{array}
+\]
+
+Tabela de S3:
+\[
+\begin{array}{cc}
+\hline
+\textbf{Destino} & \textbf{Interface} \\
+\hline
+h6 & 8 \\
+h4 & 6 \\
+h7 & 5 \\
+\hline
+\end{array}
+\]
+
+Tabela de S4:
+\[
+\begin{array}{cc}
+\hline
+\textbf{Destino} & \textbf{Interface} \\
+\hline
+h6 & 9 \\
+h7 & 10 \\
+\hline
+\end{array}
+\]
+
+Se a estação h3 enviar um quadro para a estação h5, por quais enlaces esse quadro será transmitido?","O quadro será transmitido pelos enlaces 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 e 12."
+2.b,"Considere a rede local de uma empresa, estruturada conforme a seguinte topologia:
+
+Há um switch central S1 ao qual estão conectados os switches S2, S3 e S4.
+Do switch S2 partem conexões para as estações de trabalho h1, h2 e h3.
+O switch S2 está conectado ao switch S1 por meio do caminho (1).
+A estação de trabalho h1 está conectada ao switch S2 através do caminho (2).
+A estação de trabalho h2 está conectada ao switch S2 através do caminho (3).
+A estação de trabalho h3 está conectada ao switch S2 através do caminho (4).
+O switch S4 está conectado ao switch S1 através do caminho (9).
+As estações de trabalho h7, h8 e h9 estão conectadas ao switch S4 através dos caminhos (10), (11) e (12) respectivamente.
+O switch S3 está conectado ao switch S1 por meio do caminho (5)
+A estação de trabalho h4 está conectada ao switch S3 através do caminho (6).
+A estação de trabalho h5 está conectada ao switch S3 através do caminho (7).
+A estação de trabalho h6 está conectada ao switch S3 através do caminho (8).
+
+Os números entre parênteses são os identificadores de cada enlace. Considere que, em um dado momento, as tabelas de encaminhamento dos switches sejam as seguintes:
+
+Tabela de S1:
+\[
+\begin{array}{cc}
+\hline
+\textbf{Destino} & \textbf{Interface} \\
+\hline
+h6 & 5 \\
+h7 & 9 \\
+\hline
+\end{array}
+\]
+
+Tabela de S2:
+\[
+\begin{array}{cc}
+\hline
+\textbf{Destino} & \textbf{Interface} \\
+\hline
+h6 & 1 \\
+h7 & 1 \\
+\hline
+\end{array}
+\]
+
+Tabela de S3:
+\[
+\begin{array}{cc}
+\hline
+\textbf{Destino} & \textbf{Interface} \\
+\hline
+h6 & 8 \\
+h4 & 6 \\
+h7 & 5 \\
+\hline
+\end{array}
+\]
+
+Tabela de S4:
+\[
+\begin{array}{cc}
+\hline
+\textbf{Destino} & \textbf{Interface} \\
+\hline
+h6 & 9 \\
+h7 & 10 \\
+\hline
+\end{array}
+\]
+
+A estação h3 envia um quadro para a estação h5. Durante a transmissão deste quadro, algum dos switches desta rede irá adicionar alguma entrada em sua tabela de encaminhamento? Se sim, quais switches e quais entradas?","Os seguintes switches irão adicionar entradas em sua tabela de encaminhamento: • Switch S1 — destino h3 / interface 1
+• Switch S2 — destino h3 / interface 4
+• Switch S3 — destino h3 / interface 5
+• Switch S4 — destino h3 / interface 9"
+3.a,"Considere a rede ilustrada a seguir, composta por duas estações (h1 e h2), dois switches (S1 e S2) e dois roteadores (R1 e R2). Suponha, para simplificar, que o protocolo Ethernet é utilizado em todas as comunicações na camada de enlace. No diagrama, são associados a cada interface os seus respectivos endereços IP e MAC (para o endereço MAC, somente os primeiros octetos).
+
+Estação h1:
+Interface conectada a S1:
+IP: 217.143.104.91
+MAC: e2:d1:b6:...
+Switch S1:
+Interface conectada a h1:
+IP: —
+MAC: a6:a2:e7:...
+Interface conectada a R1:
+IP: —
+MAC: e6:cf:28:...
+Roteador R1:
+Interface conectada a S1:
+IP: 217.143.0.1
+MAC: 2a:8d:78:...
+Interface conectada a R2:
+IP: 185.36.144.230
+MAC: 76:f0:46:...
+Roteador R2:
+Interface conectada a R1:
+IP: 185.36.144.97
+MAC: 7a:de:bf:...
+Interface conectada a S2:
+IP: 81.53.0.0
+MAC: ca:0d:f1:...
+Switch S2:
+Interface conectada a R2:
+IP: —
+MAC: 4a:44:74:...
+Interface conectada a h2:
+IP: —
+MAC: 5e:c1:49:...
+Estação h2:
+Interface conectada a S2:
+IP: 81.53.223.8
+MAC: 8e:c1:6d:...
+
+Considere um datagrama IP que é enviado de h1 com destino a h2.
+
+Lembrando que o campo TTL (Time to Live) do cabeçalho IP é diminuído de uma unidade a cada salto, suponha que o datagrama é enviado com TTL inicial de 32. Para cada um dos 5 enlaces que o datagrama irá atravessar, determine o endereço origem, o endereço destino e o valor de TTL registrados no cabeçalho deste datagrama quando ele atravessa o enlace.","De h1 para S1:
+
+Origem (O): 217.143.104.91
+Destino (D): 81.53.223.8
+TTL: 32
+De S1 para R1:
+
+Origem (O): 217.143.104.91
+Destino (D): 81.53.223.8
+TTL: 32
+De R1 para R2:
+
+Origem (O): 217.143.104.91
+Destino (D): 81.53.223.8
+TTL: 31
+De R2 para S2:
+
+Origem (O): 217.143.104.91
+Destino (D): 81.53.223.8
+TTL: 30
+De S2 para h2:
+
+Origem (O): 217.143.104.91
+Destino (D): 81.53.223.8
+TTL: 30"
+3.b,"Considere a rede ilustrada a seguir, composta por duas estações (h1 e h2), dois switches (S1 e S2) e dois roteadores (R1 e R2). Suponha, para simplificar, que o protocolo Ethernet é utilizado em todas as comunicações na camada de enlace. No diagrama, são associados a cada interface os seus respectivos endereços IP e MAC (para o endereço MAC, somente os primeiros octetos).
+
+Estação h1:
+Interface conectada a S1:
+IP: 217.143.104.91
+MAC: e2:d1:b6:...
+Switch S1:
+Interface conectada a h1:
+IP: —
+MAC: a6:a2:e7:...
+Interface conectada a R1:
+IP: —
+MAC: e6:cf:28:...
+Roteador R1:
+Interface conectada a S1:
+IP: 217.143.0.1
+MAC: 2a:8d:78:...
+Interface conectada a R2:
+IP: 185.36.144.230
+MAC: 76:f0:46:...
+Roteador R2:
+Interface conectada a R1:
+IP: 185.36.144.97
+MAC: 7a:de:bf:...
+Interface conectada a S2:
+IP: 81.53.0.0
+MAC: ca:0d:f1:...
+Switch S2:
+Interface conectada a R2:
+IP: —
+MAC: 4a:44:74:...
+Interface conectada a h2:
+IP: —
+MAC: 5e:c1:49:...
+Estação h2:
+Interface conectada a S2:
+IP: 81.53.223.8
+MAC: 8e:c1:6d:...
+
+Considere um datagrama IP que é enviado de h1 com destino a h2.
+
+Suponha que todas as tabelas ARP envolvidas estão devidamente preenchidas. Para cada um dos 5 enlaces, determine o endereço origem e o endereço destino dos quadros Ethernet que irão encapsular este datagrama quando ele atravessa o enlace.","De h1 para S1:
+
+Origem (O): e2:d1:b6:...
+Destino (D): 2a:8d:78:...
+De S1 para R1:
+
+Origem (O): e2:d1:b6:...
+Destino (D): 2a:8d:78:...
+De R1 para R2:
+
+Origem (O): 76:f0:46:...
+Destino (D): 7a:de:bf:...
+De R2 para S2:
+
+Origem (O): ca:0d:f1:...
+Destino (D): 8e:c1:6d:...
+De S2 para h2:
+
+Origem (O): ca:0d:f1:...
+Destino (D): 8e:c1:6d:..."
+4.a,"Considere a transmissão em streaming de pacotes multimídia de um servidor para um cliente, ilustrada no seguinte diagrama:
+PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 4.0 s
+PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 5.0 s
+PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 6.0 s
+PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 7.0 s
+PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 8.0 s
+PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s
+PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 10.0 s
+PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 11.0 s
+PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 12.0 s
+PKT10 Recepção em t = 13.0 s, reprodução escalonada para t = 13.0 s
+PKT11 Recepção em t = 13.0 s, reprodução escalonada para t = 14.0 s
+PKT12 Recepção em t = 13.5 s, reprodução escalonada para t = 15.0 s
+PKT13 Recepção em t = 15.0 s, reprodução escalonada para t = 16.0 s
+PKT14 Recepção em t = 16.5 s, reprodução escalonada para t = 17.0 s
+PKT15 Recepção em t = 18.5 s, reprodução escalonada para t = 18.0 s
+PKT16 Recepção em t = 20.5 s, reprodução escalonada para t = 19.0 s
+PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 20.0 s
+PKT18 Recepção em t = 22.5 s, reprodução escalonada para t = 21.0 s
+
+Suponha que o cliente utilize o seguinte mecanismo de bufferização: todos os pacotes são bufferizados assim que chegam e o cliente começa a reproduzir o vídeo somente 2.0 s após o primeiro pacote chegar, considerando como perdidos todos os pacotes que não chegaram a tempo de serem reproduzidos.
+
+Determine o instante de recepção de cada um dos pacotes.","PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 4.0 s
+PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 5.0 s
+PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 6.0 s
+PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 7.0 s
+PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 8.0 s
+PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s
+PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 10.0 s
+PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 11.0 s
+PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 12.0 s
+PKT10 Recepção em t = 13.0 s, reprodução escalonada para t = 13.0 s
+PKT11 Recepção em t = 13.0 s, reprodução escalonada para t = 14.0 s
+PKT12 Recepção em t = 13.5 s, reprodução escalonada para t = 15.0 s
+PKT13 Recepção em t = 15.0 s, reprodução escalonada para t = 16.0 s
+PKT14 Recepção em t = 16.5 s, reprodução escalonada para t = 17.0 s
+PKT15 Recepção em t = 18.5 s, reprodução escalonada para t = 18.0 s
+PKT16 Recepção em t = 20.5 s, reprodução escalonada para t = 19.0 s
+PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 20.0 s
+PKT18 Recepção em t = 22.5 s, reprodução escalonada para t = 21.0 s"
+4.b,"Considere a transmissão em streaming de pacotes multimídia de um servidor para um cliente, ilustrada no seguinte diagrama:
+PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 4.0 s
+PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 5.0 s
+PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 6.0 s
+PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 7.0 s
+PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 8.0 s
+PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s
+PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 10.0 s
+PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 11.0 s
+PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 12.0 s
+PKT10 Recepção em t = 13.0 s, reprodução escalonada para t = 13.0 s
+PKT11 Recepção em t = 13.0 s, reprodução escalonada para t = 14.0 s
+PKT12 Recepção em t = 13.5 s, reprodução escalonada para t = 15.0 s
+PKT13 Recepção em t = 15.0 s, reprodução escalonada para t = 16.0 s
+PKT14 Recepção em t = 16.5 s, reprodução escalonada para t = 17.0 s
+PKT15 Recepção em t = 18.5 s, reprodução escalonada para t = 18.0 s
+PKT16 Recepção em t = 20.5 s, reprodução escalonada para t = 19.0 s
+PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 20.0 s
+PKT18 Recepção em t = 22.5 s, reprodução escalonada para t = 21.0 s
+
+Suponha que o cliente utilize o seguinte mecanismo de bufferização: todos os pacotes são bufferizados assim que chegam e o cliente começa a reproduzir o vídeo somente 2.0 s após o primeiro pacote chegar, considerando como perdidos todos os pacotes que não chegaram a tempo de serem reproduzidos.
+
+Determine o instante de reprodução escalonado para cada um dos pacotes.","PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 4.0 s
+PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 5.0 s
+PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 6.0 s
+PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 7.0 s
+PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 8.0 s
+PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s
+PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 10.0 s
+PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 11.0 s
+PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 12.0 s
+PKT10 Recepção em t = 13.0 s, reprodução escalonada para t = 13.0 s
+PKT11 Recepção em t = 13.0 s, reprodução escalonada para t = 14.0 s
+PKT12 Recepção em t = 13.5 s, reprodução escalonada para t = 15.0 s
+PKT13 Recepção em t = 15.0 s, reprodução escalonada para t = 16.0 s
+PKT14 Recepção em t = 16.5 s, reprodução escalonada para t = 17.0 s
+PKT15 Recepção em t = 18.5 s, reprodução escalonada para t = 18.0 s
+PKT16 Recepção em t = 20.5 s, reprodução escalonada para t = 19.0 s
+PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 20.0 s
+PKT18 Recepção em t = 22.5 s, reprodução escalonada para t = 21.0 s"
+4.c,"Considere a transmissão em streaming de pacotes multimídia de um servidor para um cliente, ilustrada no seguinte diagrama:
+PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 4.0 s
+PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 5.0 s
+PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 6.0 s
+PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 7.0 s
+PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 8.0 s
+PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s
+PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 10.0 s
+PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 11.0 s
+PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 12.0 s
+PKT10 Recepção em t = 13.0 s, reprodução escalonada para t = 13.0 s
+PKT11 Recepção em t = 13.0 s, reprodução escalonada para t = 14.0 s
+PKT12 Recepção em t = 13.5 s, reprodução escalonada para t = 15.0 s
+PKT13 Recepção em t = 15.0 s, reprodução escalonada para t = 16.0 s
+PKT14 Recepção em t = 16.5 s, reprodução escalonada para t = 17.0 s
+PKT15 Recepção em t = 18.5 s, reprodução escalonada para t = 18.0 s
+PKT16 Recepção em t = 20.5 s, reprodução escalonada para t = 19.0 s
+PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 20.0 s
+PKT18 Recepção em t = 22.5 s, reprodução escalonada para t = 21.0 s
+
+Suponha que o cliente utilize o seguinte mecanismo de bufferização: todos os pacotes são bufferizados assim que chegam e o cliente começa a reproduzir o vídeo somente 2.0 s após o primeiro pacote chegar, considerando como perdidos todos os pacotes que não chegaram a tempo de serem reproduzidos.
+
+Algum pacote não será reproduzido com sucesso? Se sim, determine quais.","Sim, os pacotes 15, 16, 17 e 18 não serão reproduzidos com sucesso."
+4.d,"Considere a transmissão em streaming de pacotes multimídia de um servidor para um cliente, ilustrada no seguinte diagrama:
+PKT1 Recepção em t = 2.0 s, reprodução escalonada para t = 4.0 s
+PKT2 Recepção em t = 3.0 s, reprodução escalonada para t = 5.0 s
+PKT3 Recepção em t = 4.0 s, reprodução escalonada para t = 6.0 s
+PKT4 Recepção em t = 5.5 s, reprodução escalonada para t = 7.0 s
+PKT5 Recepção em t = 6.0 s, reprodução escalonada para t = 8.0 s
+PKT6 Recepção em t = 8.0 s, reprodução escalonada para t = 9.0 s
+PKT7 Recepção em t = 8.0 s, reprodução escalonada para t = 10.0 s
+PKT8 Recepção em t = 9.5 s, reprodução escalonada para t = 11.0 s
+PKT9 Recepção em t = 11.5 s, reprodução escalonada para t = 12.0 s
+PKT10 Recepção em t = 13.0 s, reprodução escalonada para t = 13.0 s
+PKT11 Recepção em t = 13.0 s, reprodução escalonada para t = 14.0 s
+PKT12 Recepção em t = 13.5 s, reprodução escalonada para t = 15.0 s
+PKT13 Recepção em t = 15.0 s, reprodução escalonada para t = 16.0 s
+PKT14 Recepção em t = 16.5 s, reprodução escalonada para t = 17.0 s
+PKT15 Recepção em t = 18.5 s, reprodução escalonada para t = 18.0 s
+PKT16 Recepção em t = 20.5 s, reprodução escalonada para t = 19.0 s
+PKT17 Recepção em t = 20.5 s, reprodução escalonada para t = 20.0 s
+PKT18 Recepção em t = 22.5 s, reprodução escalonada para t = 21.0 s
+
+Suponha que o cliente utilize o seguinte mecanismo de bufferização: todos os pacotes são bufferizados assim que chegam e o cliente começa a reproduzir o vídeo somente 2.0 s após o primeiro pacote chegar, considerando como perdidos todos os pacotes que não chegaram a tempo de serem reproduzidos.
+
+Calcule a fração de pacotes perdidos para esta transmissão.","A fração de pacotes perdidos é dada pela quantidade de pacotes perdidos, dividida pelo total de pacotes transmitidos, resultando em uma perda de 4/18 = 22.2%."
+5.a,"O objetivo desta questão é compreender o funcionamento de algoritmos geradores de resumo de mensagem (message digest). Em particular, iremos focar nos padrões MD5 e SHA1, que são dois padrões muito conhecidos e utilizados para funções de hash H(·), que geram resumo de mensagem — isto é, dada uma mensagem M qualquer, cada um destes padrões gera um resumo. Este resumo pode ser utilizado para diversos fins, desde alocação eficiente em estruturas de dados até verificação de integridade de mensagens transmitidas em uma rede.
+
+Qual é o tamanho do resumo (em bits) gerado pelos padrões MD5 e SHA1? Este tamanho depende do tamanho da mensagem M?",O MD5 sempre gera resumos de 128 bits e o SHA1 sempre gera resumos de 160 bits. Estes tamanhos de resumo não dependem do tamanho de M.
+5.b,"O objetivo desta questão é compreender o funcionamento de algoritmos geradores de resumo de mensagem (message digest). Em particular, iremos focar nos padrões MD5 e SHA1, que são dois padrões muito conhecidos e utilizados para funções de hash H(·), que geram resumo de mensagem — isto é, dada uma mensagem M qualquer, cada um destes padrões gera um resumo. Este resumo pode ser utilizado para diversos fins, desde alocação eficiente em estruturas de dados até verificação de integridade de mensagens transmitidas em uma rede.
+
+Qual é o tamanho mínimo que M deve ter (em bytes) para que as funções de hash MD5 e SHA1 possam ser utilizadas?","As funções de hash MD5 e SHA1 não determinam um tamanho mínimo para M. Logo, M pode ter qualquer tamanho."
+5.c,"O objetivo desta questão é compreender o funcionamento de algoritmos geradores de resumo de mensagem (message digest). Em particular, iremos focar nos padrões MD5 e SHA1, que são dois padrões muito conhecidos e utilizados para funções de hash H(·), que geram resumo de mensagem — isto é, dada uma mensagem M qualquer, cada um destes padrões gera um resumo. Este resumo pode ser utilizado para diversos fins, desde alocação eficiente em estruturas de dados até verificação de integridade de mensagens transmitidas em uma rede.
+
+Determine o resumo da seguinte mensagem (sem aspas) quando utilizamos o padrão MD5 e o padrão SHA1: 'Boas funções de hash são sensíveis a modificações!' Apresente o resumo em formato hexadecimal.","O resumo MD5 desta frase é “c82c8346c80c938fd2cc6a8a53033669”, e o seu resumo SHA1 é “e5c0ca4f6a30d97f925645758a63c1e611cd9ea7”."
+5.d,"O objetivo desta questão é compreender o funcionamento de algoritmos geradores de resumo de mensagem (message digest). Em particular, iremos focar nos padrões MD5 e SHA1, que são dois padrões muito conhecidos e utilizados para funções de hash H(·), que geram resumo de mensagem — isto é, dada uma mensagem M qualquer, cada um destes padrões gera um resumo. Este resumo pode ser utilizado para diversos fins, desde alocação eficiente em estruturas de dados até verificação de integridade de mensagens transmitidas em uma rede.
+
+Determine o resumo da seguinte mensagem (sem aspas) quando utilizamos o padrão MD5 e o padrão SHA1: 'Boas funções de hash são sensíveis a modificações.' Apresente o resumo em formato hexadecimal.","O resumo desta frase utilizando a função de hash MD5 é “a48d2299b9f26ff6d7d63f42108f9c01”, e utilizando o SHA1 é “8a4fbf99ee7df1de9ff4bb7d9b27fbc5eae85064”."
+5.e,"O objetivo desta questão é compreender o funcionamento de algoritmos geradores de resumo de mensagem (message digest). Em particular, iremos focar nos padrões MD5 e SHA1, que são dois padrões muito conhecidos e utilizados para funções de hash H(·), que geram resumo de mensagem — isto é, dada uma mensagem M qualquer, cada um destes padrões gera um resumo. Este resumo pode ser utilizado para diversos fins, desde alocação eficiente em estruturas de dados até verificação de integridade de mensagens transmitidas em uma rede.
+
+Considere as frases e seus respectivos resumos:
+'Boas funções de hash são sensíveis a modificações!'
+O resumo MD5 desta frase é “c82c8346c80c938fd2cc6a8a53033669”, e o seu resumo SHA1 é “e5c0ca4f6a30d97f925645758a63c1e611cd9ea7”.
+
+e 'Boas funções de hash são sensíveis a modificações.'
+O resumo desta frase utilizando a função de hash MD5 é “a48d2299b9f26ff6d7d63f42108f9c01”, e utilizando o SHA1 é “8a4fbf99ee7df1de9ff4bb7d9b27fbc5eae85064”.","Comparando os resumos MD5 entre as duas frases, conferimos que somente o 17º dos 32 caracteres gerados pelo resumo é igual. Já comparando os resumos SHA1 entre as duas frases, conferimos que apenas as posições 17 e 23 dos 40 caracteres gerados pelo resumo são iguais. Ou seja, ao modificar um único byte da mensagem M, os resumos gerados são muito diferentes."
+5.f,"Obtenha uma mensagem que tenha um resumo parecido com a mensagem 'Boas funções de hash são sensíveis a modificações!'  quando utilizamos MD5. Ou seja, determine M' tal que seu resumo tenha um número maior de bytes iguais ao resumo desta mensagem. Qual é sua mensagem e quantos bytes são iguais?","O aluno deve procurar por uma mensagem M qualquer que tenha mais de dois caracteres iguais. Por exemplo, a mensagem “Estamos testando funções de hash!”, cujo hash MD5 é “54117121ad214cbdd64e823f71a3ca72” e possui 2 caracteres iguais."
