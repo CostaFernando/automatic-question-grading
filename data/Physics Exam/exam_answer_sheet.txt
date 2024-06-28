@@ -1,0 +1,298 @@
+<questao-1>
+<nota-maxima>2</nota-maxima>
+<nota-maxima-por-alternativa>
+a) 0.5
+b) 0.5
+c) 0.5
+d) 0.5
+</nota-maxima-por-alternativa>
+<gabarito>
+"Para resolver a questão e indicar todas as forças que atuam sobre o bloco cinza claro (B) em cada situação, consideramos que o sistema está em equilíbrio. Vamos analisar cada situação:
+
+a)
+
+O bloco B está preso por dois fios inclinados. As forças atuando sobre o bloco são:
+
+        1.        Peso (P): A força da gravidade atuando para baixo.
+        2.        Tensão nos fios (T1 e T2): Forças atuando ao longo dos fios. Cada fio exerce uma força de tensão que pode ser decomposta em componentes horizontais e verticais.
+
+b)
+
+O bloco B está apoiado em uma rampa. As forças atuando sobre o bloco são:
+
+        1.        Peso (P): A força da gravidade atuando para baixo.
+        2.        Força Normal (N): A força de reação da superfície da rampa, perpendicular à superfície.
+        3.        Força de Atrito (f): A força que impede o bloco de escorregar, atuando paralelamente à superfície da rampa.
+
+c)
+
+O bloco B está sendo empurrado contra uma parede. As forças atuando sobre o bloco são:
+
+        1.        Peso (P): A força da gravidade atuando para baixo.
+        2.        Força Normal (N): A força da parede que impede o movimento do bloco para frente.
+        3.        Força de Atrito (f): A força que impede o bloco de deslizar para baixo.
+        4.        Força de Empurrão (F): A força aplicada pela pessoa para empurrar o bloco contra a parede.
+
+d)
+
+O bloco B está apoiado em uma superfície horizontal. As forças atuando sobre o bloco são:
+
+        1.        Peso (P): A força da gravidade atuando para baixo.
+        2.        Força Normal (N): A força da superfície que reage ao peso do bloco, atuando para cima.
+
+Essas são as forças envolvidas em cada caso, considerando que o sistema está em equilíbrio. A seguir, a visualização das forças:
+
+a)
+
+        •        P: Para baixo.
+        •        T1: Ao longo do fio 1, com componentes vertical e horizontal.
+        •        T2: Ao longo do fio 2, com componentes vertical e horizontal.
+
+b)
+
+        •        P: Para baixo.
+        •        N: Perpendicular à rampa, para cima.
+        •        f: Paralelo à rampa, contra o movimento.
+
+c)
+
+        •        P: Para baixo.
+        •        N: Perpendicular à parede, para a esquerda.
+        •        f: Para cima.
+        •        F: Para a direita.
+
+d)
+
+        •        P: Para baixo.
+        •        N: Para cima.
+
+Essas forças garantem que o bloco B esteja em equilíbrio em cada uma das situações apresentadas."
+</gabarito>
+</questao-1>
+
+
+<questao-2>
+<nota-maxima>2</nota-maxima>
+<nota-maxima-por-alternativa>
+a) 0.6
+b) 0.7
+c) 0.7
+</nota-maxima-por-alternativa>
+<gabarito>
+Para resolver a questão, precisamos analisar as forças que atuam sobre o bloco de massa ( m = 4 ) kg em uma superfície inclinada a ( 35^\circ ), e determinar a aceleração do bloco. Vamos resolver cada item.
+
+a) Isole a caixa e desenhe todas as forças que atuam sobre ela.
+
+As forças que atuam sobre o bloco são:
+
+        1.        Peso (P): A força da gravidade atuando para baixo, com magnitude ( P = mg ).
+        2.        Força Normal (N): A força perpendicular à superfície da rampa, exercida pela rampa sobre o bloco.
+        3.        Força de Atrito (f): A força de atrito cinético que atua contra o movimento do bloco, paralela à superfície da rampa.
+        4.        Força de Tensão (F): A força exercida pela corda, que puxa o bloco para cima ao longo da superfície inclinada.
+
+b) Expresse todas as forças que atuam sobre o bloco, em termos dos vetores unitários.
+
+Vamos decompor cada força nos eixos paralelos ((\hat{i})) e perpendiculares ((\hat{j})) à superfície inclinada.
+
+        •        Peso (P):
+
+P_x = P \sin(\theta) = mg \sin(35^\circ)
+
+
+P_y = P \cos(\theta) = mg \cos(35^\circ)
+
+        •        Força Normal (N):
+
+N = N \hat{j}
+
+        •        Força de Atrito (f):
+
+f = \mu N = 0.3 N
+
+        •        Força de Tensão (F):
+
+F = 35 \, \text{N} \, \hat{i}
+
+
+c) Determine a aceleração com que o bloco sobre o plano inclinado, em termos dos vetores unitários.
+
+A aceleração ( \vec{a} = a \hat{i} ) é determinada pela segunda lei de Newton:
+
+
+\sum F = ma
+
+
+Ao longo do eixo ( \hat{i} ):
+
+F - P_x - f = ma
+
+
+35 - (4 \times 10 \times \sin(35^\circ)) - (0.3 \times N) = 4a
+
+
+Primeiro, precisamos encontrar a normal ( N ):
+
+N = P_y = mg \cos(35^\circ) = 4 \times 10 \times \cos(35^\circ)
+
+
+N \approx 4 \times 10 \times 0.8192 \approx 32.77 \, \text{N}
+
+
+Agora, substituímos  N  na equação do atrito e na segunda lei de Newton:
+
+f = 0.3 \times 32.77 \approx 9.83 \, \text{N}
+
+
+Finalmente, substituímos todos os valores na equação da força:
+
+35 - (4 \times 10 \times \sin(35^\circ)) - 9.83 = 4a
+
+
+35 - (4 \times 10 \times 0.5736) - 9.83 = 4a
+
+
+35 - 22.94 - 9.83 = 4a
+
+
+2.23 = 4a
+
+
+a \approx 0.5575 \, \text{m/s}^2
+
+
+Portanto, a aceleração do bloco ao longo do plano inclinado é aproximadamente  0.56 \, \text{m/s}^2  no sentido do vetor unitário  \hat{i} .
+</gabarito>
+</questao-2>
+
+<questao-3>
+<nota-maxima>4</nota-maxima>
+<nota-maxima-por-alternativa>
+a) 0.8
+b) 0.8
+c) 0.8
+d) 0.8
+e) 0.8
+</nota-maxima-por-alternativa>
+<gabarito>
+Para resolver a questão sobre a caminhonete e a caixa, precisamos analisar as forças que atuam sobre a caixa, aplicar a segunda lei de Newton, e calcular a aceleração e a velocidade.
+
+a) Desenhe a caixa isoladamente e coloque todas as forças que atuam sobre ela. Onde estão aplicadas as reações a essas forças?
+
+Forças que atuam sobre a caixa:
+
+        1.        Peso (P): A força da gravidade atuando para baixo.
+
+P = mg = 50 \times 10 = 500 \, \text{N}
+
+        2.        Força Normal (N): A força de reação da superfície da caminhonete, perpendicular à superfície da caminhonete, atuando para cima.
+
+N = P = 500 \, \text{N}
+
+        3.        Força de Atrito Estático (f): A força de atrito que impede a caixa de deslizar, atuando na direção oposta à aceleração da caminhonete.
+
+f = \mu_e N = 0.4 \times 500 = 200 \, \text{N}
+
+        4.        Força de Aceleração (F): A força necessária para acelerar a caixa junto com a caminhonete.
+
+F = ma
+
+
+b) Escreva a Segunda Lei de Newton na notação vetorial e na notação em componentes para a caixa.
+
+Na direção  \hat{i}  (horizontal):
+
+
+F - f = ma
+
+
+Na direção  \hat{j}  (vertical):
+
+
+N - P = 0 \quad (\text{já que não há movimento vertical})
+
+
+c) Sabendo que o módulo da aceleração da caminhonete é  a = 2,0 \, \text{m/s}^2 , determine as componentes de todas as forças que atuam sobre a caixa.
+
+        •        Força de Aceleração (F):
+
+F = ma = 50 \times 2 = 100 \, \text{N}
+
+
+d) Determine a maior intensidade possível da aceleração da caminhonete para que a caixa não deslize sobre a carroceria da mesma.
+
+Para a caixa não deslizar, a força de atrito estático máxima deve ser maior ou igual à força necessária para acelerar a caixa:
+
+
+f_{\text{max}} = \mu_e N = 0.4 \times 500 = 200 \, \text{N}
+
+
+Portanto, a força máxima de aceleração:
+
+F_{\text{max}} = ma_{\text{max}}
+
+
+
+200 = 50a_{\text{max}}
+
+
+
+a_{\text{max}} = \frac{200}{50} = 4 \, \text{m/s}^2
+
+
+e) Uma vez que a caminhonete mantenha uma aceleração constante de  a = 2,0 \, \text{m/s}^2 , em quanto a sua velocidade escalar aumenta ao longo de 10 segundos?
+
+A variação da velocidade é dada por:
+
+
+\Delta v = a \Delta t
+
+
+
+\Delta v = 2,0 \, \text{m/s}^2 \times 10 \, \text{s} = 20 \, \text{m/s}
+
+
+Portanto, a velocidade escalar da caminhonete aumenta em  20 \, \text{m/s}  ao longo de 10 segundos.
+</gabarito>
+</questao-3>
+
+<questao-4>
+<nota-maxima>2</nota-maxima>
+<nota-maxima-por-alternativa>
+a) 0.4
+b) 0.4
+c) 0.4
+d) 0.4
+e) 0.4
+</nota-maxima-por-alternativa>
+<gabarito>
+a) Os anos bissextos acontecem em um intervalo de 6 anos.
+
+Falsa. Os anos bissextos acontecem a cada 4 anos.
+
+        •        Correção: Os anos bissextos acontecem em um intervalo de 4 anos.
+
+b) O eclipse lunar ocorre quando a Lua se alinha exatamente entre a Terra e o Sol.
+
+Falsa. O eclipse lunar ocorre quando a Terra se alinha exatamente entre a Lua e o Sol.
+
+        •        Correção: O eclipse lunar ocorre quando a Terra se alinha exatamente entre a Lua e o Sol.
+
+c) A órbita elíptica da Terra em torno do Sol é a causa das estações do ano.
+
+Falsa. As estações do ano são causadas pela inclinação do eixo de rotação da Terra em relação ao plano de sua órbita ao redor do Sol.
+
+        •        Correção: As estações do ano são causadas pela inclinação do eixo de rotação da Terra em relação ao plano de sua órbita ao redor do Sol.
+
+d) As marés na Terra são afetadas pela Lua devido à interação magnética entre elas.
+
+Falsa. As marés na Terra são afetadas pela Lua devido à força gravitacional que a Lua exerce sobre a Terra.
+
+        •        Correção: As marés na Terra são afetadas pela Lua devido à força gravitacional que a Lua exerce sobre a Terra.
+
+e) Os movimentos retrógrados dos planetas são um sinal do heliocentrismo.
+
+Falsa. Os movimentos retrógrados dos planetas são um fenômeno aparente observado da Terra, que pode ser explicado pelo modelo heliocêntrico onde a Terra e os outros planetas orbitam o Sol.
+
+        •        Correção: Os movimentos retrógrados dos planetas são explicados pelo modelo heliocêntrico onde a Terra e os outros planetas orbitam o Sol.
+</gabarito>
+</questao-4>
